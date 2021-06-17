@@ -1,0 +1,991 @@
+/*
+Theme Name: anex theme
+Theme URI: http://example.com
+Description: anex様ホームページ
+Version: 1.0
+Author: Azuma
+Author URI: http://example.com 
+*/
+
+@import url("./assets/css/reset.css");
+@import url("./assets/css/common.css");
+@import url("./assets/css/top.css");
+@import url("./assets/css/about.css");
+@import url("./assets/css/menu.css");
+@import url("./assets/css/news.css");
+@import url("./assets/css/contact.css");
+@import url("./assets/css/single.css");
+/*******************
+TOP
+*****************/
+
+/*カルーセル*/
+
+#carouselExampleIndicators {
+    height: 576px;
+}
+
+.carousel-control-next {
+    right: 20px;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-image: none;
+}
+
+.carousel-item {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-inner .bt {
+    margin-top: 30px;
+}
+
+.carousel-item img {
+    display: block;
+    height: 100%;
+    width: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    font-size: 33px;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.overlay .bt {
+    border: none;
+    line-height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .carousel .carousel-indicators li {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+main .carousel .carousel-indicators .active {
+    background-color: #AA2923;
+}
+
+@media(min-width:768px) {
+    #carouselExampleIndicators {
+        height: 680px;
+    }
+    .carousel-control-prev {
+        width: 0px;
+        padding-left: 10%;
+    }
+    .carousel-control-next {
+        width: 0px;
+        padding-right: 10%;
+    }
+    .overlay {
+        font-size: 37px;
+        font-weight: 600;
+        text-align: left;
+        align-items: flex-start;
+        margin-left: 21%;
+        letter-spacing: 5px;
+    }
+    .carousel-indicators {
+        justify-content: flex-start;
+    }
+}
+
+/**TOP NEWS */
+
+.top_news {
+    height: 320px;
+    background-color: #302c2c;
+    color: white;
+}
+
+.top_news .header {
+    height: 63px;
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_news .header .title {
+    font-size: 22px;
+    margin-right: 15px;
+    letter-spacing: 4px;
+}
+
+.top_news .header .more {
+    font-size: 13px;
+    letter-spacing: 2px;
+}
+
+.top_news .titles {
+    padding: 30px;
+}
+
+.top_news .titles .row {
+    margin-bottom: 10px;
+}
+
+.top_news .titles .row .date {
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+.top_news .titles .row .category ul {
+    width: 84px;
+    height: 22px;
+    background-color: #77878B;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_news .titles .row .category ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top_news .titles .row .category ul li a {
+    color: white;
+    font-size: 10px;
+}
+
+.top_news .titles .title {
+    margin-bottom: 18px;
+    /*overflow-x: hidden;*/
+}
+
+.top_news .titles .title a {
+    width: 100px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+}
+
+@media(min-width:768px) {
+    .top_news {
+        margin-top: -70px;
+        height: 174px;
+        display: flex;
+        z-index: 1000;
+        position: relative;
+        width: 70%;
+        left: 30%;
+        /*overflow-x: hidden;*/
+    }
+    .top_news .titles {
+        width: 80%;
+        font-size: 13px;
+        /*padding: 22% 0 0 7%;*/
+    }
+    .top_news .titles .info {
+        display: flex;
+    }
+    .top_news .titles .info {
+        margin-bottom: 20px;
+    }
+    .top_news .titles .info .row {
+        margin-bottom: 0;
+        margin-right: 20px;
+        width: 190px;
+    }
+    .top_news .titles .info .title {
+        margin-bottom: 0;
+        width: 50%;
+    }
+    .top_news .header {
+        height: 100%;
+        flex-direction: column;
+        width: 35%;
+        padding: 4% 4%;
+        max-width: 196px;
+    }
+    .top_news .header .title {
+        margin-bottom: 67px;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    .top_news .header .more {
+        font-size: 13px;
+    }
+}
+
+/**TOTAL BEATY*/
+
+.total_beaty {
+    padding: 52px 0;
+    /*height: 1692px;*/
+    background-color: #AA2923;
+    /*
+    display: flex;
+    flex-direction: column;*/
+    text-align: center;
+    color: white;
+}
+
+.total_beaty h2 {
+    font-size: 34px;
+    line-height: 1.38;
+    letter-spacing: 0.15em;
+    margin-bottom: 21px;
+}
+
+.total_beaty p.desc {
+    line-height: 25px;
+    font-size: 15px;
+    margin-bottom: 58px;
+}
+
+.total_beaty .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 61px;
+}
+
+.total_beaty .menu figure {
+    height: 278px;
+    width: 295px;
+    margin-bottom: 25px;
+    background-position: center;
+    background-size: cover;
+}
+
+.total_beaty .menu.soushin figure {
+    background-image: url(./assets/images/top/soushin@2x.png);
+}
+
+.total_beaty .menu.facial figure {
+    background-image: url(./assets/images/top/facial@2x.png);
+}
+
+.total_beaty .menu.datsumou figure {
+    background-image: url(./assets/images/top/datsumou@2x.png);
+}
+
+.total_beaty .menu h5 {
+    font-size: 30px;
+    margin-bottom: 26px;
+}
+
+@media(min-width:768px) {
+    .total_beaty {
+        padding: 83px 0 94px 0;
+    }
+    .total_beaty .com-container {
+        width: 95vw;
+    }
+    .total_beaty h2 {
+        font-size: 57px;
+    }
+    .total_beaty .desc {
+        margin-bottom: 0;
+    }
+    .total_beaty .details {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+    .total_beaty .menu {
+        flex: 1;
+        margin-right: 1.7%;
+        max-width: 33%;
+    }
+    .total_beaty .menu:first-child {
+        margin-left: 1.7%;
+    }
+    .total_beaty .menu {
+        margin-bottom: 0;
+    }
+    .total_beaty .menu img {
+        margin-bottom: 33px;
+    }
+    .total_beaty .menu h5 {
+        font-size: 19px;
+        margin-bottom: 38px;
+    }
+    .total_beaty .menu figure {
+        height: 325px;
+        width: 100%;
+        max-width: 344px;
+    }
+}
+
+@media(min-width:1202px) {
+    .total_beaty .menu h5 {
+        font-size: 30px;
+    }
+}
+
+/**お客様の声*/
+
+.voice {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.voice .cont_title {
+    margin-top: 55px;
+}
+
+.voice .card {
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.voice .card .header {
+    display: flex;
+    margin: 40px 0 37px 37px;
+}
+
+.voice .card .header img {
+    height: 80px;
+    width: auto;
+    margin-right: 30px;
+}
+
+.voice .card .header p {
+    font-size: 20px;
+    text-align: left;
+    letter-spacing: 3px;
+    line-height: 35px;
+}
+
+.voice .card .name {
+    margin-top: 82px;
+    letter-spacing: 2px;
+    margin-bottom: 47px;
+}
+
+.voice .card .message {
+    line-height: 27px;
+    text-align: left;
+    letter-spacing: 1px;
+    margin: 0 20px;
+}
+
+@media(min-width:768px) {
+    .voice .cont_title {
+        margin-top: 95px;
+    }
+    .voice .com-container {
+        width: 95vw;
+    }
+    .voice .voices {
+        display: flex;
+    }
+    .voice .voices .card {
+        flex: 1;
+        margin-right: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .voice .card {
+        margin-bottom: 102px;
+    }
+    .voice .card .header {
+        margin: 9% 0 6% 7%;
+    }
+    .voice .card .message {
+        margin: 0 7%;
+    }
+    .voice .card .message p {
+        font-size: 16px;
+        line-height: 1.75;
+        letter-spacing: 0.08;
+    }
+    .voice .card .name {
+        margin-top: 57px;
+        margin-bottom: 55px;
+    }
+}
+
+/**初めてのお客様へ*/
+
+.flow {
+    background: url(./assets/images/top/flow_background.jpg);
+    padding-top: 55px;
+}
+
+.flow .com-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.flow .colona {
+    margin-bottom: 60px;
+    padding: 35px 20px;
+    border: solid 1px #AA2923;
+    background-color: white;
+}
+
+.flow .colona h3 {
+    font-size: 18px;
+    color: #AA2923;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.flow .colona p {
+    font-size: 14px;
+    text-align: left;
+    line-height: 26.5px;
+    letter-spacing: 1.2px;
+}
+
+.flow .outer_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.num_box .box img {
+    width: 255px;
+    height: auto;
+}
+
+.flow .outer_box .line {
+    display: none;
+}
+
+@media(min-width:768px) {
+    .flow .com-container {
+        width: 95vw;
+    }
+    .flow .colona {
+        padding: 45px 60px;
+    }
+    .flow .colona h3 {
+        margin-top: 25px;
+    }
+    .flow .colona p {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .flow .outer_box {
+        flex-direction: row;
+        position: relative;
+    }
+    .flow .num_box {
+        padding: 0;
+        margin-top: 0;
+        margin-left: 80px;
+    }
+    .flow .num_box .box {
+        text-align: left;
+        display: flex;
+        align-items: flex-start;
+    }
+    .flow .num_box .box p {
+        letter-spacing: 0.04em;
+        line-height: 1.75;
+        font-size: 16px;
+    }
+    .flow .num_box .box .text {
+        margin: 6% 4% 4% 7%;
+    }
+    .flow .num_box .box .text h3 {
+        margin-bottom: 22px;
+    }
+    .num_box .box img {
+        margin-right: 36px;
+        max-width: 323px;
+        width: 36%;
+        height: auto;
+        flex-shrink: 0;
+    }
+    .flow .round_index {
+        width: 98px;
+        height: 98px;
+        font-size: 30px;
+        position: absolute;
+    }
+    .flow .outer_box .line {
+        display: block;
+        border: solid 2px #AA2923;
+        width: 0;
+        height: 110%;
+        position: absolute;
+        left: 45px;
+        top: 50%;
+    }
+}
+
+/**アクセス*/
+
+#line_p {
+    margin: 0;
+    padding: 0;
+    padding-left: 40px;
+}
+
+.access {
+    padding-top: 55px
+}
+
+.access .com-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.access .bt_line a {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.access .bt_line p {
+    padding-left: 40px;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+.access .box {
+    width: 100%;
+    background-color: white;
+    padding: 23px 15px;
+}
+
+.access .shop_info {
+    display: flex;
+    flex-direction: column;
+}
+
+.access iframe {
+    width: 100%;
+    height: 198px;
+    margin-bottom: 20px;
+}
+
+.access .bt_line {
+    max-width: 400px;
+    height: 84px;
+    margin-bottom: 20px;
+}
+
+.access .shop_name .dot {
+    color: #AA2923;
+}
+
+.access .box table {
+    font-size: 13px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.access .box table tr th {
+    font-weight: normal;
+    vertical-align: baseline;
+    width: 85px;
+}
+
+.access .box .bt {
+    width: 236px;
+    font-size: 13px;
+    color: white;
+}
+
+.access .box .bt_sq_pink {
+    letter-spacing: 0px;
+}
+.access .box .bt_sq_pink:hover{
+    color: #f86c8c;
+    text-decoration: none;
+}
+.bt_sq_pink:hover:after{
+    content: '';
+    border-right: 2px solid #f86c8c;
+    border-top: 2px solid #f86c8c;
+}
+.access .box .bt_sq_blue:hover{
+    color: #4484e4;
+    text-decoration: none;
+}
+.bt_sq_blue:hover:after{
+    content: '';
+    border-right: 2px solid #4484e4;
+    border-top: 2px solid #4484e4;
+}
+.access .box .bt_sq_purple:hover{
+    color: #9F68B7;
+    text-decoration: none;
+}
+.bt_sq_purple:hover:after{
+    content: '';
+    border-right: 2px solid #9F68B7;
+    border-top: 2px solid #9F68B7;
+}
+.access .box img {
+    width: 295px;
+    height: auto;
+    margin-top: 30px;
+}
+
+.access .box.shop_new {
+    padding-top: 70px;
+    position: relative;
+    border-top: solid 3px #AA2923;
+    border-left: solid 3px #AA2923;
+    border-right: solid 3px #AA2923;
+}
+
+.access .box .header_shop_new {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    background-color: #AA2923;
+    width: 219px;
+    height: 48px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    letter-spacing: 0.5px;
+}
+
+.access .map {
+    margin-left: 0;
+    width: 100%;
+}
+
+.access .map_new {
+    height: 201px;
+    border-bottom: solid 3px #AA2923;
+    border-left: solid 3px #AA2923;
+    border-right: solid 3px #AA2923;
+}
+
+@media(min-width:768px) {
+    .access {
+        padding-top: 95px;
+    }
+    .access .com-container {
+        width: 95vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .access .bt_line {
+        width: 437px;
+        height: 75px;
+        font-size: 14px;
+        margin-bottom: 55px;
+    }
+    .access .bt_line p {
+        letter-spacing: 0.08em;
+    }
+    .access .bt_line a:hover .access .bt_line a p {
+        text-decoration: none;
+    }
+    .access .box {
+        padding: 50px;
+    }
+    .access .inner {
+        display: flex;
+    }
+    .access .buttons {
+        display: flex;
+    }
+    .access .buttons .bt {
+        margin-right: 15px;
+    }
+    .access .shop_info {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+    .access .shop_info .inner {
+        display: flex;
+        flex-direction: column;
+        width: 60%;
+    }
+    .access .shop_info img {
+        max-width: 338px;
+        width: 35%;
+        height: auto;
+        margin: 0;
+        position: absolute;
+        right: 0;
+    }
+    .access .box table {
+        line-height: 2;
+        letter-spacing: 0.06em;
+        width: 75%;
+    }
+    .access .box table tr th {
+        width: 75px;
+    }
+    .access .map {
+        padding: 0 50px 0 50px;
+        width: 100%;
+        background-color: white;
+        margin-bottom: 30px;
+    }
+    .access iframe {
+        height: 295px;
+    }
+}
+
+.navbar {
+    position: relative;
+    padding: 0;
+}
+
+.navbar-light .navbar-brand {
+    padding: 10px 0 20px 10px;
+}
+
+.navbar-toggler {
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+ul.nav_ul li {
+    height: 60px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 40px;
+    position: relative;
+    border-top: solid 1px #B4B4B4;
+}
+
+@media(min-width:768px) {
+    ul.nav_ul li {
+        border-top: none;
+        padding-left: 0;
+        padding-right: 40px;
+    }
+    ul.nav_ul li:last-child{
+        padding-right: 0;
+    }
+}
+
+ul.nav_ul li a {
+    color: black;
+    font-weight: 800;
+}
+
+.bt_reserve {
+    height: 74px;
+    display: flex;
+}
+
+.bt_reserve .left {
+    background-color: #AA2923;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 21px;
+    width: 60vw;
+    color: white;
+    transition: all 0.5s;
+}
+.bt_reserve .left:hover{
+    background-color: white;
+    color: #AA2923;
+}
+.bt_reserve .right {
+    background-color: #B99C55;
+    columns: white;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40vw;
+    transition: all 0.5s;
+}
+.bt_reserve .right{
+    color: white;
+}
+
+/*フッター*/
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*padding: 54px 83px;*/
+}
+
+.footer .com-container {
+    padding: 54px 83px 0 83px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .com-container img {
+    margin-bottom: 30px;
+}
+
+.footer ul li a {
+    color: black;
+}
+
+.footer .nav {
+    position: relative;
+    top: 0;
+    opacity: 1;
+    z-index: 0;
+    height: auto;
+}
+.footer .insta-bottom{
+    display: none;
+}
+.footer .nav .links{
+    width: 100%;
+}
+@media(min-width:768px) {
+    .footer .insta-upper {
+        display: none;
+    }
+    .footer .insta-bottom {
+        display: flex;
+        color: black;
+        font-weight: 900;
+    }
+    .footer .com-container{
+        flex-direction: row;
+        padding: 10px 0 0 0;
+    }
+    .footer .footer_logo img{
+        width: 150px;
+        height: 60px;
+        margin-right: 10px;
+        margin-bottom: 0;
+    }
+    .footer .insta-bottom img{
+        margin-right: 15px;
+        width: 25px;
+        height: auto;
+    }
+    .footer .bt_reserve{
+        height: 60px;
+    }
+    .footer .bt_reserve .left,
+    .footer .bt_reserve .right{
+        height: 60px;
+    }
+    .footer .nav .links{
+        width: auto;
+    }
+}
+
+#img_insta {
+    margin-top: 30px;
+}
+
+.btn-select {
+    text-align: center;
+    width: 300px;
+    margin: 20px auto;
+    position: relative;
+    background: #333;
+    border-radius: 6px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px;
+    border: solid 1px #AA2923;
+    height: 55px;
+    color: #AA2923;
+    cursor: pointer;
+    /* IEでcursorがチラついたので */
+}
+
+.btn-select::before {
+    content: "";
+    background: url(./assets/images/common/arrow_down.png);
+    width: 12px;
+    height: 8px;
+    position: absolute;
+    right: 10px;
+}
+
+.label {
+    color: #AA2923;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+
+.select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    padding: 20px;
+    opacity: 0;
+    position: relative;
+    z-index: 2;
+}
+
+/* IE10以上で矢印を消す */
+
+.select::-ms-expand {
+    display: none;
+}
+
+/* フォーカス時 */
+
+.select:focus {
+    z-index: -1;
+    opacity: 1;
+}
+
+
+.shop_name {
+    margin-bottom: 1em;
+}
+
+.lineIndent {
+    margin-left: 1em;
+    text-indent: -1em;
+}

@@ -1,0 +1,228 @@
+.contact .box_header {
+    background-image: url(../images/contact/top_sp@2x.png);
+}
+
+@media(min-width:768px) {
+    .contact .box_header {
+        background-image: url(../images/contact/top_pc@2x.png);
+    }
+    .contact{
+        padding-bottom: 100px;
+    }
+}
+
+.contact .com-container {
+    padding: 50px 0;
+}
+
+.contact .midashi {
+    font-size: 24px;
+    text-align: center;
+    line-height: 37px;
+    margin-bottom: 40px;
+}
+
+.contact .contact_form {
+    background-color: white;
+    padding: 25px 12px 0 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .contact_form table tr {
+    display: flex;
+    flex-direction: column;
+    border-bottom: solid 1px #CCCCCC;
+    padding: 20px 0 25px 0;
+    letter-spacing: 1px;
+}
+
+.contact .contact_form table tr:last-child {
+    border-bottom: none;
+}
+
+.contact .contact_form table th, .contact .contact_form table td {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: normal;
+}
+
+.contact .contact_form table th {
+    margin-bottom: 15px;
+    display: flex;
+}
+
+.contact .contact_form table th.th_tel {
+    margin-bottom: 0;
+}
+
+.contact .contact_form table td .suffix {
+    font-size: 14px;
+}
+
+.contact .contact_form table td .radio_otoiawase {
+    display: grid;
+}
+
+.contact .contact_form table td input.wpcf7-text {
+    width: 100%;
+    border-radius: 10px;
+    height: 60px;
+    border: solid 1px #CCCCCC;
+}
+
+.contact .contact_form table th.th_tel {
+    display: block;
+}
+
+.contact .contact_form table th .suffix {
+    font-size: 14px;
+    font-weight: normal;
+    padding-top: 10px;
+}
+
+.contact .container .contact_form table th.required {
+    padding-left: 60px;
+}
+
+.contact .contact_form table th .must_box {
+    width: 54px;
+    height: 30px;
+    background-color: #AA2923;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.contact .contact_form table th.th_tel .th_line {
+    display: flex;
+}
+
+.contact .contact_form table tr:last-child textarea {
+    height: 180px;
+    width: 80vw;
+    border-radius: 5px;
+    border: solid 1px #CCCCCC;
+    margin-top: 10px;
+}
+
+.contact .contact_form table th.must::before {
+    content: "必須";
+    width: 54px;
+    height: 30px;
+    background-color: #AA2923;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    margin-right: 10px;
+}
+
+.contact .contact_form .bt {
+    height: 80px;
+    font-size: 20px;
+    border-radius: 50px;
+    margin: 0 0 18px 0;
+}
+
+.contact .contact_form .bt::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 7px;
+    height: 7px;
+    border-top: 2px solid #fff;
+    border-right: 2px solid #fff;
+    transform: rotate(45deg);
+    margin-top: -5px;
+}
+
+.contact .contact_form .bt_red {
+    background-color: #AA2923;
+    color: white;
+    border: solid 1px #AA2923;
+    position: relative;
+}
+
+.contact .contact_form .bt_red::after {
+    position: absolute;
+    top: 50%;
+    right: .2em;
+    content: '';
+    margin-top: -5px;
+    border: 7px solid transparent;
+    border-top-width: 5px;
+    border-bottom-width: 5px;
+    border-left-color: #fff;
+    transition: all .3s;
+}
+
+.contact .contact_form .bt_red:hover {
+    background-color: white;
+    color: #AA2923;
+}
+
+.contact .contact_form .bt_gray {
+    background-color: #8C8C8C;
+    color: white;
+    border: solid 1px #8C8C8C;
+}
+
+.contact .contact_form .bt_gray:hover {
+    background-color: white;
+    color: #8C8C8C;
+}
+
+.contact .contact_form .wpcf7-form p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .contact_form .wpcf7-form p br {
+    display: none;
+}
+
+@media(min-width:768px) {
+    .contact .com-container{
+        margin-top: 83px;
+        width: 95vw;
+    }
+    .contact .contact_form {
+        display: block;
+    }
+    .contact .contact_form table tr {
+        flex-direction: row;
+    }
+    .contact .contact_form table th {
+        min-width: 350px;
+    }
+    .contact .contact_form table tr:nth-child(6) th{
+        /*「住所」のインデントを合わせる*/
+        padding-left: 64px;
+    }
+    /*
+    .contact .contact_form table td input.wpcf7-text{
+        width: 100%;
+    }*/
+    .contact .contact_form table td input.wpcf7-text {
+        width: 100%;
+    }
+    .contact .contact_form table tr:last-child textarea {
+        width: 100%;
+    }
+    .contact .contact_form form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

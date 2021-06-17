@@ -1,0 +1,586 @@
+main.menu {
+    background-color: white;
+}
+
+.menu .box_header {
+    background-image: url(../images/menu/top_sp@2x.png);
+}
+
+@media(min-width:768px) {
+    .menu .box_header {
+        background-image: url(../images/menu/top_pc@2x.png);
+    }
+}
+
+.menu .buttons {
+    display: none;
+}
+
+@media(min-width:768px) {
+    .menu .btn-select.pc_none {
+        display: none;
+    }
+    .menu .buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu .buttons button {
+        font-size: 15px;
+        width: 255px;
+    }
+    .menu .buttons button:not(:last-child) {
+        margin-right: 1%;
+    }
+}
+
+@media(min-width:1366px) {
+    .menu .buttons button {
+        font-size: 15px;
+    }
+}
+
+.menu .price_table {
+    background-color: white;
+    padding-bottom: 0;
+}
+
+@media(min-width:768px) {
+    .menu .price_table {
+        background-color: #F5F0E5;
+        padding-bottom: 0;
+    }
+}
+
+.menu .cont_header {
+    width: 100vw;
+    background-color: #AA2923;
+    height: 103px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /*margin-bottom: 20px;*/
+}
+
+.menu .cont_header h2 {
+    font-size: 30px;
+}
+
+.menu .cap_box {
+    background-color: #F5F0E5;
+    padding: 20px 0;
+}
+
+.menu .caption {
+    width: 100%;
+    border: solid 2px #AA2923;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px 0;
+    color: #AA2923;
+}
+
+@media(min-width:768px) {
+    .menu .cap_box {
+        padding: 95px 0 57px 0;
+    }
+    .menu .cap_box.datsumou{
+        padding-top: 0;
+    }
+    .menu .cap_box .com-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu .caption {
+        width: 600px;
+        height: 59px;
+        font-weight: normal;
+    }
+}
+
+.menu .caption.caption_02 {
+    line-height: 32px;
+}
+
+.menu .menu_box {
+    border-bottom: solid 1px #B4B4B4;
+    margin-bottom: 32px;
+}
+
+.menu .menu_box h3 {
+    font-size: 20px;
+}
+
+.menu .menu_box h3.title_short {
+    letter-spacing: 0.5px;
+}
+
+.menu .menu_box:last-child {
+    margin-bottom: 0;
+    border-bottom: solid 1px white;
+}
+
+.menu .menu_box .time {
+    width: 126px;
+    height: 28px;
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    background-color: #AA2923;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.menu .menu_box .detail {
+    font-size: 13px;
+    line-height: 23px;
+    letter-spacing: 0.5px;
+}
+
+.menu .menu_box .price {
+    margin: 15px 0 28px 0;
+    display: flex;
+}
+
+.menu .menu_box.consl .price {
+    display: block;
+}
+
+.menu .menu_box .price .trial {
+    border-right: solid 1px #AA2923;
+    padding-right: 26px;
+}
+
+.menu .menu_box .price-title {
+    font-size: 14px;
+    letter-spacing: 1.5px;
+    font-weight: 500;
+}
+
+.menu .menu_box .price .trial_price {
+    font-size: 22px;
+    color: #AA2923;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.menu .menu_box .price .cource {
+    padding-left: 30px;
+    line-height: 28px;
+}
+
+.menu .menu_box .price .cource table {
+    color: #AA2923;
+}
+
+.menu .menu_box .price .cource table tr {
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.menu .menu_box .price .cource table th {
+    text-align: right;
+}
+
+.menu .menu_box .price .cource table td {
+    text-align: left;
+}
+
+.red {
+    color: #AA2923;
+}
+
+.menu .menu_box.consl {
+    padding-bottom: 35px;
+}
+
+.menu .consl_title {
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+    padding: 20px 0;
+    line-height: 40px;
+    letter-spacing: 0.04em;
+}
+
+.menu .consl_desc {
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    line-height: 27px;
+    margin-bottom: 20px;
+    letter-spacing: 0.01em;
+}
+
+.menu .menu_box.consl h3 {
+    font-size: 24px;
+}
+
+.menu .menu_box.consl .consl_price {
+    font-size: 30px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+
+.menu .menu_box.consl .consl_price.red {
+    margin: 0;
+}
+
+.menu .menu_box.consl img {
+    width: 13px;
+    height: auto;
+    margin-left: 80px;
+}
+
+.menu .menu_box.consl .suffix {
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.menu .consl_container {
+    background-color: #F5F0E5;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+.menu .menu_box .price .bridal_price {
+    border: none;
+    padding-right: 26px;
+}
+*/
+
+.menu .facial.price_table .menu_box:nth-child(5) .trial {
+    border: none;
+    padding-right: 26px;
+}
+
+.menu .menu_box .price .cource.datsumou {
+    padding-left: 0;
+}
+
+.menu .menu_box .price .suffix {
+    font-size: 12px;
+}
+
+.menu .tbl_comemnt {
+    text-align: right;
+    font-size: 14px;
+}
+
+.menu .datsumou_container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 140px;
+}
+
+.menu .cancel {
+    text-align: center;
+    letter-spacing: 0.4px;
+	margin-bottom: 10px;
+}
+
+.menu .cancel a {
+    font-size: 17px;
+    color: black;
+    text-decoration: underline;
+}
+
+.menu .first-customer {
+    height: 1048px;
+    background: url(../images/menu/firstcustomer_sp@2x.png) top center / cover no-repeat;
+    padding: 20px 0;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+}
+
+/*
+.menu .first-customer .upper{
+    height: 140px;
+}
+.menu .first-customer .bottom{
+    height: 1000px;
+}*/
+
+.menu .first-customer .bottom {
+    margin-bottom: 25px;
+}
+
+.menu .first-customer .white_box {
+    background-color: white;
+    /*height: 1048px;*/
+    height: 289px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    width: 335px;
+}
+
+.menu .first-customer .white_box p {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 45px;
+}
+
+.menu .first-customer .white_box .bt_arrow {
+    margin-top: 30px;
+}
+
+.menu .consl .menu_box .price .tbl_arrow.sp {
+    /*
+    background-image: url(../images/menu/arrow_down.png);
+    width: 15px;
+    height: 13px;*/
+    display: block;
+}
+.menu .consl .menu_box .price .tbl_arrow.pc{
+    display: none;
+}
+.menu .first-customer .com-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.menu .consl_crs{
+    background-color: #F5F0E5;
+    padding-bottom: 10px;
+}
+.menu .consl.price_table{
+    padding-top: 20px;
+}
+.menu .soushin .com-container, .menu .facial .com-container, .menu .datsumou .com-container{
+    padding: 29px 0 0 0;
+}
+.menu .consl.price_table .menu_box.consl{
+    padding-bottom: 0;
+}
+@media(min-width:768px) {
+    .menu .soushin .com-container, .menu .facial .com-container, .menu .datsumou .com-container {
+        background-color: white;
+        padding: 29px 3% 25px 3%;
+        width: 96vw;
+    }
+    .menu .price_table .menu_box {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 10px;
+    }
+    .menu .price_table .menu_box .text {
+        width: 60%;
+        margin-right: 3%;
+    }
+    .menu .price_table .menu_box .price {
+        display: flex;
+    }
+    .menu .consl.price_table .menu_box .price{
+        margin-right: 0.6vw;
+    }
+    .menu .menu_box .price .trial {
+        display: flex;
+        border-right: none;
+        padding-right: 0;
+        align-items: center;
+        height: 100%;
+        width: 208px;
+    }
+    .menu .menu_box .price .trial .price-title, .menu .menu_box .price .cource .price-title {
+        width: 80px;
+        height: 100%;
+        border-right: solid 1px #AA2923;
+        padding-right: 14px;
+        margin-right: 14px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu .menu_box .price .cource {
+        height: 100%;
+        display: flex;
+        align-items: center;
+        margin-right: 10px;
+        width: 269px;
+        padding-left: 10px;
+    }
+    .menu .menu_box .price .cource.datsumou{
+        width: auto;
+    }
+    .menu .menu_box .price .cource table {
+        width: 165px;
+        padding-left: 0;
+    }
+    .menu .caption.caption_02 {
+        height: auto;
+    }
+    .menu .cap_box.consl_crs .com-container {
+        display: block;
+    }
+    .menu .consl_crs .consl_desc {
+        text-align: center;
+        margin-bottom: 0;
+        padding-bottom: 30px;
+    }
+    .menu .consl .com-container {
+        background-color: white;
+        padding: 37px 3% 30px 3%;
+        width: 96vw;
+    }
+    .menu .consl .title {
+        display: flex;
+        flex-direction: column;
+    }
+    .menu .consl .title .term {
+        display: flex;
+    }
+    .menu .menu_box.consl img {
+        margin-left: 0;
+    }
+    .menu .consl .price_after {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .menu .consl .price {
+        display: flex;
+        align-items: flex-end;
+    }
+    .menu .menu_box.consl .consl_price {
+        margin: 0;
+        margin-right: 10px;
+    }
+    .menu .menu_box .price {
+        display: flex;
+        font-weight: 600;
+    }
+    .menu .consl .menu_box .title h3 {
+        letter-spacing: 0.04em;
+        margin-right: 29px;
+        font-weight: 600;
+    }
+    .menu .consl .menu_box .price .consl_price {
+        font-weight: 900;
+        letter-spacing: 0.1em;
+    }
+    .menu .consl .menu_box .price .tbl_arrow {
+        background-image: url(../images/menu/arrow_right.png);
+        background-size: 15px 22px;
+        width: 15px;
+        height: 22px;
+        border: none;
+        border-style: none;
+    }
+    .menu .consl_container {
+        height: auto;
+        padding-bottom: 130px;
+        padding-top: 93px
+    }
+    .menu .consl_container.facial{
+        padding-top: 0;
+    }
+    .menu .datsumou_container {
+        flex-direction: column;
+    }
+    .menu .cap_box.datsumou .com-container {
+        flex-direction: column;
+        background-color: #F5F0E5;
+    }
+    .menu .first-customer{
+        background: url(../images/menu/firstcustomer_pc@2x.png) top center / cover no-repeat;
+        height: auto;
+        padding: 121px 0;
+    }
+    .menu .first-customer .com-container {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        width: 95vw;
+    }
+    .menu .first-customer .box{
+        flex: 1;
+    }
+    .menu .first-customer .box_left {
+        display: flex;
+        flex-direction: column;
+        margin-right: 3%;
+    }
+    .menu .first-customer .box_left .upper, .menu .first-customer .box_left .bottom, .menu .first-customer .white_box {
+        /*width: 45vw;*/
+        max-width: 510px;
+    }
+    .menu .first-customer .white_box {
+        height: 420px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu .first-customer .box_left .upper {
+        height: 60px;
+        width: 100%;
+        font-size: 19px;
+    }
+    .menu .first-customer .box_left .bottom {
+        height: 360px;
+        display: flex;
+        flex-direction: column;
+        /*padding: 30px 5px 0px 5px;*/
+        width: 100%;
+    }
+    .menu .first-customer .box_left .bottom p {
+        text-align: center;
+        margin-bottom: 0;
+    }
+    .menu .first-customer .box_left .bottom .comment p {
+        padding-left: 0;
+    }
+    .menu .first-customer .box_left .bottom a.line_comment {
+        left: -45%;
+        top: -15px;
+    }
+    .menu .facial.price_table .menu_box:nth-child(5) .trial{
+        padding-right: 0;
+    }
+    .menu .menu_box .detail {
+        padding-right: 10px;
+    }
+    .menu .first-customer .bottom h3{
+        margin-bottom: 0;
+        padding-top: 15px;
+    }
+    .menu .first-customer .white_box p{
+        letter-spacing: 0.06em;
+        line-height: 1.6;
+    }
+    .menu .consl .menu_box .price .tbl_arrow.sp {
+        display: none;
+    }
+    .menu .consl .menu_box .price .tbl_arrow.pc{
+        display: block;
+    }
+}
+@media(min-width:900px){
+    .menu .first-customer .bottom h3,
+    .menu .first-customer .white_box p{
+        font-size: 36px;
+    }
+    .menu .first-customer .box_left .bottom a.line_comment {
+        left: -37%;
+        top: 0;
+    }
+}

@@ -1,0 +1,75 @@
+
+.single {
+    background-color: white;
+}
+.single .box_header {
+    background-image: url(../images/news/top_sp@2x.png);
+}
+
+@media(min-width:768px) {
+    .consingletact .box_header {
+        background-image: url(../images/news/top_pc@2x.png);
+    }
+    
+}
+.single .com-container {
+    padding: 0;
+    margin-top: 50px;
+}
+.single .header .com-container{
+    margin-top: 0;
+    padding: 18px 0;
+}
+.single .col-12, .single .col-md-9 {
+    padding: 0;
+}
+
+.single .news_meta {
+    margin-bottom: 10px;
+    padding: 10px 30px;
+}
+
+.single .article_title {
+    font-size: 24px;
+    padding: 0 20px;
+}
+
+.single img {
+    width: 100%;
+    height: auto;
+}
+
+.single .article_body h2, .single .article_body h3, .single .article_body h4, .single .article_body h5, .single .article_body h6, .single .article_body p, .single .article_body a {
+    padding: 20px;
+}
+
+.single .article_body h2 {
+    font-size: 24px;
+}
+
+.single .article_body h3 {
+    font-size: 20px;
+}
+
+.single .article_body h2 {
+    font-size: 18px;
+}
+
+.single .article_body p {
+    font-size: 16px;
+}
+
+.single .article_body h2 a {
+    font-size: 14px;
+    color: black;
+}
+@media(min-width:768px){
+    .single .com-container{
+        display: flex;
+        padding-top: 64px;
+        width: 95vw;
+    }
+    .single .article_body{
+        max-width: 721px;
+    }
+}

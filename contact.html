@@ -1,0 +1,37 @@
+<table>
+    <tr>
+        <th>経営に関する相談</th>
+        <td>[radio otoiawase class:radio_otoiawase use_label_element default:1 "新規開業予定の方" "すでに経営されている方" ]
+        </td>
+    </tr>
+    <tr>
+        <th class="must">お名前[全角漢字]</th>
+        <td>[text* user-name]</td>
+    </tr>
+    <tr>
+        <th class="must">フリガナ[全角カタカナ]</th>
+        <td>[text* hurigana]</td>
+    </tr>
+    <tr>
+        <th class="must">E-mail</th>
+        <td>[email* email]</td>
+    </tr>
+    <tr>
+        <th class="th_tel">
+<div class="th_line">
+<div class="must_box">必須</div><div>電話番号</div>
+</div>
+<div class="suffix">※半角数字、ハイフンは入れないでください</div>
+</th>
+        <td>[tel* tel]</td>
+    </tr>
+    <tr>
+        <th class="required">住所</th>
+        <td>[text address]</td>
+    </tr>
+    <tr>
+        <th class="must">お問い合せ内容</th>
+        <td>[textarea* message]</td>
+    </tr>
+</table>
+[confirm class:bt class:bt_red "確認する"][back class:bt class:bt_gray "入力内容を修正する"][submit class:bt class:bt_red "送信する"]
