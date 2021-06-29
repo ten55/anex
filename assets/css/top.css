@@ -1,8 +1,8 @@
 /*トップメッセージ*/
 
 .main .top_message {
-    margin-top: 80px;
-    margin-bottom: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
 .main .top_message .com-container {
@@ -21,9 +21,10 @@
 
 .main .top_message .parenthesis {
     align-items: flex-end;
-    width: 335px;
-    height: 259px;
+    width: 295px;
+    height: 166.5px;
     align-items: center;
+    margin-bottom: 35px
 }
 
 .main .top_message .parenthesis h3 {
@@ -35,16 +36,35 @@
 .main .top_message p.text {
     font-size: 15px;
     text-align: left;
-    line-height: 30px;
+    line-height: 27px;
     margin-bottom: 33px;
+    letter-spacing: -2px;
 }
 
 .main .top_message figure {
     background-image: url(../images/about/top_message_sp@2x.jpg);
-    width: 335px;
+    width: 295px;
     height: 324px;
     background-position: center;
     background-size: cover;
+}
+
+.main .top_message .company_name {
+    font-size: 16px;
+    text-align: left;
+    width: 100%;
+    font-weight: 700;
+    margin-top: 106px;
+    letter-spacing: 1px;
+}
+
+.main .top_message .ceo_name {
+    font-size: 20px;
+    text-align: left;
+    width: 100%;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 45px;
 }
 
 @media(min-width:768px) {
@@ -78,59 +98,141 @@
 
 .main .support {
     background-color: var(--white);
+    padding-top: 50px;
+    margin-bottom: 50px;
 }
-.main .support .com-container{
+
+.main .support .com-container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.main .support .desc .text{
+
+.main .support .desc .text {
     text-align: center;
 }
-.main .support .cont_title {
-    font-size: 40px;
-}
 
-.main .support .support_box {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
-.main .support .index {
-    flex-basis: 30%;
-    color: var(--white);
-    font-size: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-.main .support .com-container .support_box:first-child{
-    border: solid 1px var(--green);
-}
-.main .support .com-container .support_box:first-child .index{
-    background-color: var(--green);
-}
-.main .support .com-container .support_box:nth-child(2){
-    border: solid 1px var(--red);
-}
-.main .support .com-container .support_box:nth-child(2) .index{
-    background-color: var(--red);
-}
-.main .support .com-container .support_box:nth-child(3){
-    border: solid 1px var(--yellow);
+.main .support .cont_title {
+    font-size: 55px;
+    color: #C30A18;
     margin-bottom: 0;
 }
-.main .support .com-container .support_box:nth-child(3) .index{
+
+.main .support .caption {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 33px;
+}
+
+.main .support .desc {
+    font-size: 15px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.main .support .support_box{
+    width: 100%;
+    /*border: solid 1px #C30A18;*/
+    padding: 0 20px 20px 20px;
+    margin-bottom: 30px;
+}
+.main .support .index{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    height: 115px;
+    /*background-color: #C30A18;*/
+    margin-left: -20px;
+    margin-right: -20px;
+}
+.main .support .index .number_head{
+    font-size: 20px;
+    color: white;
+    letter-spacing: 1.2px;
+}
+.main .support .index .number {
+    font-size: 85px;
+    color: white;
+}
+.main .support .detail{
+    padding-top: 25px;
+}
+.main .support .detail .caption{
+    font-size: 20px;
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.main .support .detail .text{
+    font-size: 15px;
+}
+.main .support .detail img{
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+.main .support .com-container .support_box.first {
+    border: solid 1px var(--red);
+}
+.main .support .com-container .support_box.first .index {
+    background-color: var(--red);
+}
+.main .support .com-container .support_box.second {
+    border: solid 1px var(--yellow);
+}
+.main .support .com-container .support_box.second .index {
     background-color: var(--yellow);
 }
-
-.main .support .index .number{
-    font-size: 40px;
+.main .support .com-container .support_box.third {
+    border: solid 1px var(--orange);
+    margin-bottom: 50px;
 }
-
-.main .support .detail{
+.main .support .com-container .support_box.third .index {
+    background-color: var(--orange);
+}
+.main .support .school{
+    border: solid 3px var(--gold);
+    border-radius: 27px;
+    width: 100%;
+    padding: 35px;
+    margin-top: 50px;
+    margin: 0 auto;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
+}
+.main .support .school img{
+    width: 182px;
+    height: auto;
+}
+.main .support .school .text{
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 35px;
+    color: var(--gold)
+}
+@media(min-width:768px) {
+    .main .support .support_box {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+    .main .support .index {
+        flex-basis: 30%;
+        color: var(--white);
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .main .support .detail {
+        display: flex;
+        align-items: center;
+    }
 }

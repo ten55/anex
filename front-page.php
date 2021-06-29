@@ -9,25 +9,33 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/carousel01@2x.png" class="h-100" alt="施術風景">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/sp_carousel01@2x.png" class="h-100" alt="top">
                 <div class="overlay">
-                    <p class="text mincho">無料<br class="br-sp">カウンセリングで<br>あなた専用の<br class="br-sp">プランニングを</p>
-                    <a class="bt bt_red" href="<?php echo esc_url(get_permalink(28)); ?>">View More</a>
+                    <p class="text bold">脱毛・<br class="br-sp" />
+                        エステサロン<br class="br-sp" />
+                        経営を<br />
+                        トータル<br class="br-sp" />
+                        サポート</p>
+                    <a class="bt bt_transparent" href="<?php echo esc_url(get_permalink(28)); ?>">View More</a>
 
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/carousel02@2x.png" alt="施術風景">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/sp_carousel02@2x.png" alt="top">
                 <div class="overlay">
-                    <p class="text mincho">トータル<br class="br-sp">サロンとして<br>幅広いメニュー<br class="br-sp">を展開</p>
-                    <a class="bt bt_red" href="<?php echo esc_url(get_permalink(get_page_by_path('menu')->ID)); ?>">View More</a>
+                    <p class="text">脱毛機器の<br />
+                        導入支援に<br class="br-sp" />
+                        ついて</p>
+                    <a class="bt bt_transparent" href="<?php echo esc_url(get_permalink(get_page_by_path('menu')->ID)); ?>">View More</a>
                 </div>
             </div>
             <div class="carousel-item overlay-base">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/carousel03@2x.png" alt="施術風景">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/sp_carousel03@2x.png" alt="top">
                 <div class="overlay">
-                    <p class="text mincho">動画で<br class="br-sp">施術風景を<br class="br-sp">公開中</p>
-                    <a class="bt bt_red" href="<?php echo esc_url(get_permalink(get_page_by_path('about')->ID)); ?>#about_movie">View More</a>
+                    <p class="text">エステ機器の<br />
+                        導入支援に<br class="br-sp" />
+                        ついて</p>
+                    <a class="bt bt_transparent" href="<?php echo esc_url(get_permalink(get_page_by_path('about')->ID)); ?>#about_movie">View More</a>
                 </div>
             </div>
         </div>
@@ -47,7 +55,7 @@
 
     <section class="top_news">
         <div class="header">
-            <p class="title mincho">NEWS</p>
+            <p class="title">NEWS</p>
             <a class="more" href="<?php echo esc_url(get_permalink(get_page_by_path('news')->ID)); ?>">View More <i class="fas fa-chevron-right"></i></a>
         </div>
         <div class="titles">
@@ -79,19 +87,24 @@
         <div class="com-container">
             <div class="message">
                 <div class="parenthesis">
-                    <h3 class="mincho">
-                        結果の出る楽しさを<br class="br-sp">実感いただくため<br>
-                        一人ひとりに合った<br class="br-sp">プランニングと<br class="br-pc">
-                        確かな<br class="br-sp">技術をご提供します
+                    <h3>
+                        エステティックを<br class="br-sp" />
+                        通して<br />
+                        明るい未来の創造<br class="br-sp" />
                     </h3>
                 </div>
                 <p class="text">
-                    女性のライフステージというのは、目まぐるしく変わっていきます。就職、結婚、出産、育児。男性よりもターニングポイントが多いと思います。そして自身の生活スタイルが変わる中で、その時なりたい自分でいられるか。<br>
-                    <br>
-                    ネクストフェイスは、自分に自信を持って前に進めるきっかけづくりをご提供いたします。<br>
-                    <br>
-                    ライフステージや抱えているお悩みも人それぞれです。様々なお悩みに対応できるよう、トータルサロンとして幅広くメニューを展開。当店ならではの提案力でお客様の綺麗を全力でサポートいたします。<br>
+                    25年位前からエステティックを仕事としてとらえ現場でもエステティシャンとして経験を積ませていただきました。<br />
+                    業務用美容機器が好きでいろいろ試してお客様が喜んでくれるものを選んでサービス提供をしてきました。その結果、とても良かったもの、良かったもの、後悔するものに分けられました。<br />
+                    業務用機器の選定はその後の売り上げに大きくかかわります。<br />
+                    情報があふれる今だからこそ商品を選ぶ大変さがあり、業務用だからこそ後悔しないために商品選びの際、生の情報が必要になっていることが感じられ、この経験を生かし弊社での卸業、サロンサポート業がスタートしました。<br />
+                    直営サロンで実際使っているので、お客様の反応やスタッフの反応などを現場から聞くことができるのも強みのひとつです。<br />
+                    <br />
+                    地域の皆様に愛されるサロン作りをしているオーナー様の応援を私たちはしています。<br />
+                    必要な方に必要な情報と安心を。さらなる飛躍を願っています。<br />
                 </p>
+                <p class="company_name">株式会社Anex　代表取締役</p>
+                <p class="ceo_name">小渕貞子</p>
             </div>
             <figure></figure>
         </div>
@@ -100,58 +113,74 @@
     <section class="support">
         <div class="com-container">
             <h2 class="cont_title mincho">SUPPORT</h2>
-            <div class="desc">
-                <div class="caption">Anexの行うサポートとは</div>
-                <div class="text">aaaaaaaaaaaaaa<br>aaaaaaaaaaaaaaaaa<br>aaaaaaaaaaaaa</div>
+            <div class="caption">Anexの行う<br class="br-sp" />サポートとは</div>
+            <div class="desc">エステ・脱毛サロン経営をする<br class="br-sp" />
+                オーナー様の支援を行います。<br />
+                経営コンサルティングに限らず、<br class="br-sp" />
+                機械や消耗品について、スタッフの育成など、どんな悩みにも親身に<br />
+                対応いたします。<br class="br-sp" />
+                初めてエステ・脱毛サロン経営をするにあたって知識や経験がなく、<br />
+                何を始めたらいいかわからない、そんなサロンオーナー様に寄り添える存在でありたいと考えています。
             </div>
-            <div class="support_box">
+            <div class="support_box first">
                 <div class="index">
-                    <div>support</div>
-                    <div class="number">01</div>
+                    <div class="number_head playfair">support</div>
+                    <div class="number playfair">01</div>
                 </div>
                 <div class="detail">
                     <div class="text">
                         <div class="caption">経営支援</div>
-                        <p>パウダールーム完備しており、お化粧直しをしてお帰りいただけます。メイク道具は用意がございませんのでご自身のものをご用意ください。
+                        <p>環境づくり、仕掛けづくり、<br />
+                            スタッフの教育などについて。<br />
+                            実店舗を運営しているからこそ、
+                            オーナー様の悩みに<br class="br-sp" />
+                            共感することができ、<br class="br-sp" />解決策をご提案できます。
                         </p>
                     </div>
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/flow_01@2x.png">
                 </div>
             </div>
-            <div class="support_box">
+            <div class="support_box second">
                 <div class="index">
-                    <div>support</div>
-                    <div class="number">02</div>
+                    <div class="number_head playfair">support</div>
+                    <div class="number playfair">02</div>
                 </div>
                 <div class="detail">
                     <div class="text">
-                        <div class="caption">経営支援</div>
-                        <p>パウダールーム完備しており、お化粧直しをしてお帰りいただけます。メイク道具は用意がございませんのでご自身のものをご用意ください。
+                        <div class="caption">販売支援</div>
+                        <p>集客戦略、販売スキル、お客様に寄り添うことの重要性について。<br />
+                            地域特性を踏まえた広告宣伝手法や販売ノウハウの提供について伝えます。<br />
                         </p>
                     </div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/flow_01@2x.png">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/flow_02@2x.png">
                 </div>
             </div>
-            <div class="support_box">
+            <div class="support_box third">
                 <div class="index">
-                    <div>support</div>
-                    <div class="number">02</div>
+                    <div class="number_head playfair">support</div>
+                    <div class="number playfair">03</div>
                 </div>
                 <div class="detail">
                     <div class="text">
-                        <div class="caption">経営支援</div>
-                        <p>パウダールーム完備しており、お化粧直しをしてお帰りいただけます。メイク道具は用意がございませんのでご自身のものをご用意ください。
+                        <div class="caption">商品導入支援</div>
+                        <p>心から信頼できる
+                            商材の見極め方について。
+                            機械選びが与える影響の大きさについて、グローバルサイエンス社とARTISTIC & Co. 社の商品力についてを伝えます。
                         </p>
                     </div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/flow_01@2x.png">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/flow_03@2x.png">
                 </div>
             </div>
+            <a class="school" href="#">
+                <p class="text">より詳しく技術習得したい方のために、エステサロン経営に関するスクールを実施しています。詳細はお問い合わせにてご連絡ください。</p>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/school.png">
+            </a>
         </div>
     </section>
 
     <section class="total_beaty">
         <div class="com-container">
-            <h2 class="playfair">TOTAL<br class="br-sp"> BEAUTY SALON</h2>
+            <h2 class="cont_title">結果が出る仕組み</h2>
             <p class="desc">「痩身・フェイシャル・脱毛」<br>お客様を美に導くトータルサロンです</p>
 
             <div class="details">

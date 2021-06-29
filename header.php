@@ -69,7 +69,7 @@
         <div class="com-container">        
             <div class="menu_abs">
                 <div class="site">
-                    <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/common/logo@2x.png" alt="next-face logo"/></a>
+                    <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/common/logo.png" alt="anex logo"/></a>
                 </div>
                 <button type="button" class="nav-button" onClick="navFunc()">
                     <span class="sr-only">MENU</span>
