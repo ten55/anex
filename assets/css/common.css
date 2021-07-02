@@ -33,6 +33,7 @@ body {
     font-family: 'Noto Sans JP', sans-serif;
     /*min-width: 375px;
     max-width: 760px;*/
+    font-size: 15px;
 }
 
 main {
@@ -395,7 +396,7 @@ font設定
 .bt_transparent:hover{
     background:rgba(255, 255, 255, 0.7);
 }
-/*
+
 .bt_white {
     background-color: white;
     color: #B99C55;
@@ -406,7 +407,7 @@ font設定
     background-color: #B99C55;
     color: white;
 }
-
+/*
 .bt_white_red {
     background-color: white;
     color: #AA2923;
@@ -476,7 +477,7 @@ font設定
     margin-left: auto;
     margin-right: auto;
     width: 30px;
-    border-bottom: solid 2px #ac2c24;
+    border-bottom: solid 3px var(--gold);
     margin-bottom: 55px;
 }
 
@@ -487,7 +488,7 @@ font設定
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background: #ac2c24;
+    background: var(--gold);
     color: white;
     /* top: -30px; */
     /* left: 50px; */

@@ -178,131 +178,115 @@
         </div>
     </section>
 
-    <section class="total_beaty">
+    <section id="about_shikumi" class="shikumi">
         <div class="com-container">
-            <h2 class="cont_title">結果が出る仕組み</h2>
-            <p class="desc">「痩身・フェイシャル・脱毛」<br>お客様を美に導くトータルサロンです</p>
+            <div class="cont_title">結果が出る仕組み</div>
+            <div class="line"></div>
 
-            <div class="details">
-                <article class="menu soushin">
-                    <figure></figure>
-                    <h5 class="mincho">０１｜痩身</h5>
-                    <a class="bt bt_red" href="<?php echo esc_url(get_permalink(get_page_by_path('menu')->ID)); ?>#menu_soushin">View More</a>
-                </article>
+            <div class="boxs">
+                <div class="outer_box">
+                    <h2 class="round_index">01</h2>
+                    <div class="box">
+                        <h3 class="header">人それぞれに合わせた<br />最適の支援</h3>
+                        <p class="text">
+                            定型的なコンサルティングは行いません。場所、提供内容、資金などサロンオーナー様によって状況は様々です。丁寧に状況のヒアリングを行い、それぞれの悩みにあった最適の支援をご提案させていただきます。
+                        </p>
+                    </div>
+                </div>
 
-                <article class="menu facial">
-                    <figure></figure>
-                    <h5 class="mincho">０２｜フェイシャル</h5>
-                    <a class="bt bt_red" href="<?php echo esc_url(get_permalink(get_page_by_path('menu')->ID)); ?>#menu_facial">View More</a>
-                </article>
+                <div class="outer_box">
+                    <h2 class="round_index">02</h2>
+                    <div class="box">
+                        <h3 class="header">25年の経営経験が<br />あるからこそ<br />導ける解決策</h3>
+                        <p class="text">
+                            実際にサロン経営をしているからこそ、机上の空論にならず実態に基づいた悩みを共有することができます。もちろん最終決定権はオーナー様ですが、私たちの過去の経験と実績から様々なご提案ができます。</p>
+                        </p>
+                    </div>
+                </div>
 
-                <article class="menu datsumou">
-                    <figure></figure>
-                    <h5 class="mincho">０３｜脱毛</h5>
-                    <a class="bt bt_red" href="<?php echo esc_url(get_permalink(get_page_by_path('menu')->ID)); ?>#menu_datsumou">View More</a>
-                </article>
+                <div class="outer_box support">
+                    <h2 class="round_index">03</h2>
+                    <div class="box">
+                        <h3 class=" header">開業後も<br />安心継続サポート</h3>
+                        <p class="text">
+                            開業後はLINEや電話などでいつでも気軽に相談いただけます。消耗品はどこで買ったら良いかなど小さな悩みも共有しながら、サロンオーナーとして成功する道筋を一緒に作ります。
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="voice">
         <div class="com-container">
-            <h2 class="cont_title mincho">お客様の声</h2>
+            <h2 class="cont_title">オーナー様の声</h2>
             <div class="line"></div>
+
+            <div class="desc">
+                実際にAnexのサポートを受けられた<br class="br-sp" />
+                オーナー様からの声をご紹介します。<br>
+                貴重なお声をいただきながら、<br class="br-sp" />
+                より良いサポートを提供できるように日々努力しております。
+
+            </div>
 
             <div class="voices">
                 <div class="card">
                     <div class="header">
                         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/woman_01.png">
-                        <p class="mincho">スタッフの<br class="br-sp">皆さんに<br>癒されています</p>
+                        <p>とても丁寧で親身な<br class="br-sp" />
+                            対応に、<br class="br-pc" />あらゆる場面で助けられました。
+                        </p>
                     </div>
                     <div class="message">
-                        <p>初めて来た時は緊張していたのですが、丁寧な接客と説明にとても安心しました。脱毛に関しては、どんどん毛がなくなっていくので毎回行くのがとても楽しみです。いつも笑顔で優しいスタッフの皆さんに心が癒されます。まだ脱毛を経験していない方には是非、試して欲しいです。とにかく良いので、行かないと損ですよ！</p>
+                        <p>色々と導入するまでは熱心な所が多い中、Anexの小渕さんは、導入後も細かな事まで親身に聞いて下さりすぐに対応頂けてとても助かっています。導入前後の不安も全くなく安心と信頼がありお客様へも自信を持って対応することができています。本当に感謝しています。Anexの小渕さんに出会えて良かったです！！
+                        </p>
                     </div>
                     <div class="name">
-                        <p>A様　｜　20代　｜　女性</p>
+                        <p>Relaxation Salon Kefina<br />
+                            佐々木陽子 様</p>
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card" style="height:772px">
                     <div class="header">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/woman_02.png">
-                        <p class="mincho">予想以上の結果に<br>驚きです</p>
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/woman_01.png">
+                        <p>とても丁寧で親身な<br class="br-sp" />
+                            対応に、<br class="br-pc" />あらゆる場面で助けられました。
+                        </p>
                     </div>
                     <div class="message">
-                        <p>いつも丁寧に施術していただき、どんどん体が軽くなっていくのを実感できています。回を重ねるごとに予想以上の結果なので、毎回来店するのが楽しみです。
-                            自分より、スタッフの方々の方が身体をわかってくれているので、安心してお任せできます。理想に少しでも近くまで、一緒に頑張ってくれて本当に感謝しています。これからもよろしくお願いいたします。</p>
+                        <p>色々と導入するまでは熱心な所が多い中、Anexの小渕さんは、導入後も細かな事まで親身に聞いて下さりすぐに対応頂けてとても助かっています。導入前後の不安も全くなく安心と信頼がありお客様へも自信を持って対応することができています。本当に感謝しています。Anexの小渕さんに出会えて良かったです！！
+                        </p>
                     </div>
                     <div class="name">
-                        <p>B様　｜　50代　｜　女性</p>
+                        <p>Relaxation Salon Kefina<br />
+                            佐々木陽子 様</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="flow">
+    <section class="product">
         <div class="com-container">
-            <h2 class="cont_title mincho">初めてのお客様へ</h2>
-            <div class="line"></div>
-            <div class="colona">
-                <h3>コロナ対策について</h3>
-                <p>来店時の手指消毒、検温をお願いしております。37.4℃以上の体温の場合は施術ができなくなります。<br>
-                    サロンではコロナ以前から1客１掃を徹底しております。
-                    タオルの取り換え、器具、設備の消毒等、サロン内の換気を徹底し、個室内も広く安心してご来店いただける環境を準備しております。</p>
+            <h2 class="cont_title mincho">PRODUCT</h2>
+            <div class="caption">美容機器の<br class="br-sp" />導入支援について</div>
+            <div class="desc">脱毛・エステサロンの経営を<br class="br-sp" />
+                お考えの方にお勧めする業務用・<br class="br-sp" />
+                ホームケア機器をご紹介します。<br />
+                導入をご検討される方はお気軽に<br class="br-sp" />
+                お問い合わせにてご連絡ください。
             </div>
-            <div class="outer_box">
-                <h2 class="round_index mincho">01</h2>
-                <div class="line"></div>
-                <div class="num_box">
-                    <div class="box">
-                        <div class="text">
-                            <h3 class="mincho">カウンセリング</h3>
-                            <p>ルイボスティーをご用意しております。カウンセリングシートにご記入いただき、お客様に合ったエステ体験ができるようお話を伺います。こんなこと聞いたら恥ずかしいかな？などと思わずに何でもご質問ください。施術前には、変化、効果を見るためにお写真をお撮りします。（希望者のみ）痩身では採寸、体組織計によるプロポーション診断を行います。（希望者のみ）</p>
-                        </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/flow_01@2x.png">
-                    </div>
+            <div class="box">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/product01.png" alt="業務用脱毛機ヴィクトリアについて" />
+                <div class="text">
+                    <div class="header">業務用脱毛機<br />ヴィクトリアについて</div>
+                    <p>美容サロンで脱毛を導入しようと考えている方にオススメする脱毛機が、グローバルサイエンス社のヴィクトリアです。短時間・短期間で全身脱毛が可能なこの機械は収益性も高く、お客様満足度も高い機械です。</p>
+                <a class="bt bt_white" href="<?php echo esc_url(get_permalink(28)); ?>">脱毛機器の導入</a>
                 </div>
             </div>
-            <div class="outer_box">
-                <h2 class="round_index mincho">02</h2>
-                <div class="line"></div>
-                <div class="num_box">
-                    <div class="box">
-                        <div class="text">
-                            <h3 class="mincho">施術</h3>
-                            <p>お着替えしていただいた後、いよいよ施術開始です。途中、施術の強さ、体調の変化などをお伺いします。ご希望のマッサージの強さなどお伝えください。お眠りいただいても大丈夫です。（APTSのみ眠っては効果が半減されてしまうので起きていてください）</p>
-                        </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/flow_02@2x.png">
-                    </div>
-                </div>
-            </div>
-            <div class="outer_box">
-                <h2 class="round_index mincho">03</h2>
-                <div class="line"></div>
-                <div class="num_box">
-                    <div class="box">
-                        <div class="text">
-                            <h3 class="mincho">パウダールーム</h3>
-                            <p>パウダールーム完備しており、お化粧直しをしてお帰りいただけます。メイク道具は用意がございませんのでご自身のものをご用意ください。
-                                <br>●備品：ドライヤー・くし形アイロン・髪型直し用水素水・ヘアーブラシ・クリップ
-                            </p>
-                        </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/flow_03@2x.png">
-                    </div>
-                </div>
-            </div>
-            <div class="outer_box">
-                <h2 class="round_index mincho">04</h2>
-                <div class="num_box">
-                    <div class="box">
-                        <div class="text">
-                            <h3 class="mincho">アフターカウンセリング</h3>
-                            <p>お飲み物（痩身とフェイシャルではお飲み物が違います）をご用意しております。お身体の状態をお話しいたします。ビフォーアフターのお写真や、変化などを確認しながら自宅でもできるアドバイスなどをさせて頂きます。サロンのご利用方法やコースのご案内もお客様に合ったものをご提案させていただきます。強引な勧誘などは行っておりませんのでご安心くださいませ。</p>
-                        </div>
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/flow_04@2x.png">
-                    </div>
-                </div>
+            <div class="box">
             </div>
         </div>
     </section>
