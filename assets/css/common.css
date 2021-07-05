@@ -6,6 +6,8 @@
     --yellow: #FEC603;
     --white: #ffffff;
     --gold: #B99C55;
+    --black: #212529;
+    --gray: #DED9CF;
 }
 
 .container::-webkit-scrollbar {
@@ -264,29 +266,37 @@ font設定
 */
 
 .bt {
-    display: table;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
-    padding: 1em 2.5em;
     min-width: 15em;
-    font-size: 13px;
+    font-size: 18px;
     text-align: center;
     text-decoration: none;
     box-sizing: border-box;
     transition: 0.5s;
     width: 200px;
-    height: 44px;
+    height: 55px;
+    font-weight: 600;
+    padding-right: 20px;
 }
 
 .bt::after {
+    content: "";
     position: absolute;
-    top: 50%;
-    right: 1em;
+    /*top: 33%;*/
+    right: 40px;
+    /*
     width: 0.5em;
     height: 0.5em;
     transform: translateY(-50%) rotate(45deg);
     border-right: 2px solid white;
     border-top: 2px solid white;
-    content: "";
+    content: "";*/
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/common/red_arrow.png);
     transition: 0.5s;
 }
 
@@ -379,7 +389,11 @@ font設定
 .bt_yellow {
     background-color: #B99C55;
     color: white;
-    border: solid 1px white;
+    /*border: solid 1px white;*/
+}
+
+.bt_yellow::after{
+    background-image: url(../images/common/yellow_arrow.png);
 }
 
 .bt_yellow:hover {
@@ -399,12 +413,12 @@ font設定
 
 .bt_white {
     background-color: white;
-    color: #B99C55;
-    border: solid 1px #B99C55;
+    color: var(--red);
+    border: solid 1px var(--red);
 }
 
 .bt_white:hover {
-    background-color: #B99C55;
+    background-color: var(--red);
     color: white;
 }
 /*
@@ -792,7 +806,7 @@ font設定
     align-items: center;
     color: white;
     font-size: 15px;
-    background-color: #323232;
+    background-color: var(--red);
 }
 
 .navbar-light .navbar-toggler-icon {

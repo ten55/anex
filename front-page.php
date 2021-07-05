@@ -283,141 +283,97 @@
                 <div class="text">
                     <div class="header">業務用脱毛機<br />ヴィクトリアについて</div>
                     <p>美容サロンで脱毛を導入しようと考えている方にオススメする脱毛機が、グローバルサイエンス社のヴィクトリアです。短時間・短期間で全身脱毛が可能なこの機械は収益性も高く、お客様満足度も高い機械です。</p>
-                <a class="bt bt_white" href="<?php echo esc_url(get_permalink(28)); ?>">脱毛機器の導入</a>
+                    <a class="bt bt_white" href="<?php echo esc_url(get_permalink(28)); ?>">脱毛機器の導入</a>
                 </div>
             </div>
-            <div class="box">
+            <div class="box home-care">
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/product02.png" alt="業務用脱毛機ヴィクトリアについて" />
+                <div class="text">
+                    <div class="header">業務用エステ機器・<br />ホームケア機器について</div>
+                    <p>脱毛機械だけでなく、家庭でも自分でお肌のケアをできるホームケア機器や業務用エステ機器の導入もご提案しています。</p>
+                    <a class="bt bt_white" href="<?php echo esc_url(get_permalink(28)); ?>">エステ機器の導入</a>
+                </div>
+            </div>
+            <div class="free-support">
+                <div class="upper">
+                    <p><span class="free">無料</span><br>サポート</p>
+                </div>
+                <div class="bottom">
+                    <div class="text">
+                        美容機器を導入した<br class="br-sp" />
+                        サロンオーナー様には<br class="br-sp" />
+                        無料で様々な支援を<br class="br-sp" />
+                        行なっております。<br />
+                        詳しくは<br class="br-sp" />
+                        お問合せください。
+                    </div>
+                    <div class="description">
+                        ※機器を導入しない方も有料での<br class="br-sp" />
+                        サポートをご提供しています。<br class="br-sp" />
+                        お気軽にお尋ねください。<br />
+                        ※エステサロン経営に関する<br class="br-sp" />
+                        スクールは有料となります。
+                    </div>
+                </div>
+            </div>
+            <div class="bt bt_yellow bt_support">
+                サポートについての<br class="br-sp" />
+                詳細はこちら
             </div>
         </div>
     </section>
 
-    <section id="front_access" class="access">
+    <section class="company">
         <div class="com-container">
-            <h2 class="cont_title mincho">アクセス</h2>
+            <h2 class="cont_title">会社概要</h2>
             <div class="line"></div>
-            <div class="bt_line bt_red">
-                <a href="https://line.me/R/ti/p/%40981butkb" target='_blank'>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/line.png" alt="line" />
-                    <p id="line_p">公式ラインから<br class="br-sp">オンライン相談が可能！</p>
-                </a>
-            </div>
-            <div class="box">
-                <div class="shop_info">
-                    <div class="inner">
-                        <div class="shop_detail">
-                            <div class="shop_name">
-                                <p class="lineIndent"><span class="dot">●</span>痩身ハイフ＆脱毛エステサロンNextFace 札幌本店</p>
-                            </div>
-                            <table id="tbl_access">
-                                <tr>
-                                    <th>住所</th>
-                                    <td>〒060-0002<br class="br-sp">札幌市中央区北2条西2丁目29-2UENOビル3Ｆ</td>
-                                </tr>
-                                <tr>
-                                    <th>電話番号</th>
-                                    <td>011-206-0744</td>
-                                </tr>
-                                <tr>
-                                    <th>E-mail</th>
-                                    <td>info@next-face.jp</td>
-                                </tr>
-                                <tr>
-                                    <th>営業時間</th>
-                                    <td>月〜金　11:00〜20:00（最終受付19:00）<br>
-                                        土曜・祝日　11:00〜19:00（最終受付18:00）</td>
-                                </tr>
-                                <tr>
-                                    <th>定休日</th>
-                                    <td>日曜日</td>
-                                </tr>
-                            </table>
-                        </div>
-                        <div class="buttons">
-                            <a class="bt bt_sq_blue" target='_blank' href="https://www.google.com/maps/reserve/merchant?m=BUpiwF8Tm1Y&source=pa&gei=Tz-WX8-tGsr7-QbG3IagDA&sourceurl=https://www.google.com/search?q%3D%25E3%2583%258D%25E3%2582%25AF%25E3%2582%25B9%25E3%2583%2588%25E3%2583%2595%25E3%2582%25A7%25E3%2582%25A4%25E3%2582%25B9%26oq%26aqs%3Dchrome.0.35i39i362l8...8.936336170j0j15%26sourceid%3Dchrome%26ie%3DUTF-8&hl=ja-JP
-">Googleで予約</a>
-                            <a href="https://reservia.jp/shop/reserve/5479" target='_blank' class="bt bt_sq_purple">リザービア</a>
-                        </div>
-                    </div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/honten@2x.png" alt="本店" />
-                </div>
-            </div>
-            <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2914.9461134677526!2d141.35121011547864!3d43.063600879145966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b29760509525b%3A0xd5213d525147c078!2z44Ko44K544OG44OG44Kj44OD44Kv44K144Ot44OzIE5leHQgRmFjZQ!5e0!3m2!1sja!2sjp!4v1604624112401!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
 
-            <div class="box">
-                <div class="shop_info">
-                    <div class="inner">
-                        <div class="shop_detail">
-                            <div class="shop_name">
-                                <p class="lineIndent"><span class="dot">●</span>痩身専門プライベートエステサロンNextFace 厚別店</p>
-                            </div>
-                            <table>
-                                <tr>
-                                    <th>住所</th>
-                                    <td>〒004-0053<br>札幌市厚別区厚別中央3条1丁目10-15 ラ・クラッサ3.1 303
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <th>電話番号</th>
-                                    <td>011-500-2225</td>
-                                </tr>
-                                <tr>
-                                    <th>E-mail</th>
-                                    <td>info@next-face.jp</td>
-                                </tr>
-                                <tr>
-                                    <th>営業時間</th>
-                                    <td>11:00〜20:00（最終受付19:00）完全予約制</td>
-                                </tr>
-                                <tr>
-                                    <th>定休日</th>
-                                    <td>不定休</td>
-                                </tr>
-                            </table>
-                        </div>
-                        <div class="buttons">
-                            <a href="https://beauty.hotpepper.jp/kr/slnH000507381/" target='_blank' class="bt bt_sq_pink">ホットペッパービューティー</a>
-                        </div>
-                    </div>
-                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/shop_atsubetsu.jpeg" alt="厚別店" width="auto" height="236px" />
-                </div>
-            </div>
-            <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2916.3777736351285!2d141.45402531547785!3d43.03348247914747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b2b6f3bbac923%3A0xde27f5084afd4ec9!2z44CSMDA0LTAwNTMg5YyX5rW36YGT5pyt5bmM5biC5Y6a5Yil5Yy65Y6a5Yil5Lit5aSu77yT5p2h77yR5LiB55uu77yR77yQ4oiS77yR77yVIOODqeODu-OCr-ODqeODg-OCte-8k-ODu--8kQ!5e0!3m2!1sja!2sjp!4v1604624695659!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-            </div>
+            <table>
+                <tr>
+                    <th>名称</th>
+                    <td>株式会社Anex</td>
+                </tr>
+                <tr>
+                    <th>設立</th>
+                    <td>1990年3月</td>
+                </tr>
+                <tr>
+                    <th>所在地</th>
+                    <td>〒060-0002<br class="br-sp" />
+                        札幌市中央区北2条<br class="br-sp" />
+                        西2丁目 UENOビル3F</td>
+                </tr>
+                <tr>
+                    <th>電話番号</th>
+                    <td>011-206-0744</td>
+                </tr>
+                <tr>
+                    <th>代表者</th>
+                    <td>小渕貞子</td>
+                </tr>
+                <tr>
+                    <th>事業内容</th>
+                    <td>美容機器卸販売、化粧品日用品、健康美容食品卸販、美容サロン運営
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
 
-            <div class="box">
-                <div class="shop_info">
-                    <div class="inner">
-                        <div class="shop_detail">
-                            <div class="shop_name">
-                                <p class="lineIndent"><span class="dot">●</span>ファミリー脱毛epitto 北見店</p>
-                            </div>
-                            <table>
-                                <tr>
-                                    <th>住所</th>
-                                    <td>〒090-0036 北見市幸町1-1-3</td>
-                                </tr>
-                                <tr>
-                                    <th>電話番号</th>
-                                    <td>0157-33-1156</td>
-                                </tr>
-                                <tr>
-                                    <th>E-mail</th>
-                                    <td>info@next-face.jp</td>
-                                </tr>
-                                <tr>
-                                    <th>定休日</th>
-                                    <td>不定休</td>
-                                </tr>
-                            </table>
-                        </div>
-                    </div>
+    <section class="unei">
+        <div class="com-container">
+            <h2 class="cont_title">運営店舗</h2>
+            <div class="line"></div>
+
+            <div class="outer">
+                <div div class="upper">
+                    <p>痩身ハイフ＆脱毛エステサロン</p>
+                    <p class="name">NextFace 札幌本店</p>
                 </div>
-            </div>
-            <div class="map">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2879.2797172072665!2d143.88779501558943!3d43.808557079116305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f6d56e1ffc92c31%3A0x3e0735776d5e7aff!2z44CSMDkwLTAwMzYg5YyX5rW36YGT5YyX6KaL5biC5bm455S677yR5LiB55uu77yR4oiS77yT!5e0!3m2!1sja!2sjp!4v1604624819513!5m2!1sja!2sjp" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <div class="bottom">
+                    <p>ファミリー脱毛</p>
+                    <p class="name">epitto 北見店</p>
+                </div>
             </div>
         </div>
     </section>

@@ -1,10 +1,7 @@
 <footer class="footer">
     <div class="com-container">
         <a class="footer_logo" href="<?php echo home_url(); ?>">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/common/footer_logo.png" alt="logo">
-        </a>
-        <a class="insta-upper" target='_blank' href="https://www.instagram.com/next_face/?hl=ja">
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/common/insta.png" class="d-block w-100" alt="logo">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/common/logo.png" alt="logo">
         </a>
         <div class="nav">
             <div class="links">

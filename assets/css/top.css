@@ -494,3 +494,97 @@
 .main .product .bt{
     width: 100%;
 }
+.main .product .bt.bt_white{
+    margin-top: 58px;
+}
+.main .product .box.home-care{
+    margin-top: 50px;
+}
+.main .product .free-support{
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.main .product .free-support .upper{
+    height: 160px;
+    text-align: center;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gold);
+    line-height: 45px;
+}
+.main .product .free-support .upper p{
+    font-size: 28px;
+}
+.main .product .free-support .upper .free{
+    font-size: 60px;
+}
+.main .product .free-support .bottom{
+    background-color: var(--white);
+    color: var(--black);
+    text-align: center;
+    padding: 25px;
+}
+.main .product .free-support .bottom .text{
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+.main .product .free-support .bottom .description{
+    font-size: 15px;
+    margin-top: 15px;
+}
+.main .product .bt_support{
+    height: 91px;
+}
+
+/*会社概要*/
+
+.main .company{
+    padding: 52px 0;
+}
+.main .company .line{
+    margin-bottom: 5px;
+}
+.main .company table tr{
+    font-size: 15px;
+    border-bottom: solid 1px var(--gray);
+}
+.main .company table th{
+    font-weight: 600;
+    width: 100px;
+    letter-spacing: 2px;
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.main .company table td{
+    padding: 18px 0 18px 18px;
+}
+
+/**運営店舗 */
+.main .unei{
+    padding-bottom: 55px;
+}
+.main .unei .line{
+    margin-bottom: 30px;
+}
+.main .unei .outer{
+    background-color: var(--white);
+    color: var(--red);
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 20px;
+}
+.main .unei .outer .upper{
+    padding: 20px;
+    border-bottom: solid 1px var(--red);
+}
+.main .unei .outer .bottom{
+    padding: 20px;
+}
+.main .unei .outer .name{
+    font-weight: 500;
+    font-size: 22px;
+}

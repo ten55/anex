@@ -131,7 +131,6 @@ main .carousel .carousel-indicators .active {
 /**TOP NEWS */
 
 .top_news {
-    margin-left: 30px;
     height: 320px;
     background-color: #302c2c;
     color: white;
@@ -724,7 +723,15 @@ ul.nav_ul li {
     position: relative;
     border-top: solid 1px #B4B4B4;
 }
-
+ul.nav_ul li::after{
+    content: "";
+    background-image: url(./assets/images/common/menu_arrow@2x.png);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 20px;
+    background-size: 20px 20px;
+}
 @media(min-width:768px) {
     ul.nav_ul li {
         border-top: none;
@@ -787,11 +794,16 @@ ul.nav_ul li a {
 }
 
 .footer .com-container {
-    padding: 54px 83px 0 83px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 55px;
+}
+
+.footer .com-container .footer_logo img{
+    width: 100%;
+    padding: 0 40px;
 }
 
 .footer .com-container img {
@@ -800,9 +812,13 @@ ul.nav_ul li a {
 
 .footer ul li a {
     color: black;
+    padding-left: 40px;
 }
 
 .footer .nav {
+    width: 100vw;
+    margin-left: -60px;
+    margin-right: -20px;
     position: relative;
     top: 0;
     opacity: 1;
