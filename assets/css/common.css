@@ -1,4 +1,4 @@
-:root{
+:root {
     /*色*/
     --green: #249696;
     --red: #C30A18;
@@ -8,6 +8,7 @@
     --gold: #B99C55;
     --black: #212529;
     --gray: #DED9CF;
+    --lightgray: #cccccc;
 }
 
 .container::-webkit-scrollbar {
@@ -18,11 +19,13 @@
 html {
     overflow-x: hidden;
 }
-@media(min-width:768px){
-    html{
+
+@media(min-width:768px) {
+    html {
         overflow-x: visible;
     }
 }
+
 body {
     padding: 0;
     margin: 0;
@@ -51,7 +54,7 @@ main {
 .com-container {
     width: 78%;
     margin: 0 auto;
-    margin-left: 60px;
+    margin-left: 16%;
 }
 
 .br-pc {
@@ -67,6 +70,8 @@ main {
         width: 79%;
         max-width: 1080px;
         /*width: 1080px;*/
+        margin-left: 0;
+        margin: 0 auto;
     }
     .br-sp {
         display: none;
@@ -98,6 +103,12 @@ font設定
 
 .header .site img {
     width: 210px;
+}
+
+@media(min-width:768px) {
+    .header {
+        height: 88px;
+    }
 }
 
 /*スクリーンリーダー用*/
@@ -142,7 +153,9 @@ font設定
 .header .com-container {
     display: flex;
     flex-direction: column;
-    padding: 26px 0 19px 0;
+    padding: 21px 0 20px 0;
+    width: 88%;
+    margin: 0 auto;
 }
 
 .header .menu_abs {
@@ -151,6 +164,7 @@ font設定
     align-content: center;
     width: 100%;
     z-index: 1000;
+    height: 51px;
 }
 
 .open .nav-button {
@@ -168,10 +182,6 @@ font設定
 }
 
 @media(min-width:768px) {
-    /*
-    .header .com-container {
-        height: 88px;
-    }*/
     .site img {
         width: 137px;
     }
@@ -190,8 +200,13 @@ font設定
     .open .nav {
         top: 72px;
         opacity: 1;
-        height: 374px;
+        height: 250px;
         transition: top 0.5s, height 0.5s, opacity 1s;
+        width: 100%;
+        /*margin-left: -60px;*/
+        left: 0;
+        margin-right: auto;
+        margin-left: auto;
     }
     .header {
         position: relative;
@@ -199,14 +214,18 @@ font設定
     .nav {
         position: absolute;
         top: -302px;
-        margin-left: -5.5%;
-        margin-right: -5.5%;
+        /*margin-left: -5.5%;
+        margin-right: -5.5%;*/
         background-color: white;
         z-index: 100;
         margin-top: 15px;
         opacity: 0;
         height: 0;
         transition: height 1s, top 1s, opacity 0.5s;
+        width: 100%;
+        /*margin-left: -60px;*/
+        margin: 0 auto;
+        left: 0;
     }
     .nav ul {
         width: 100%;
@@ -222,6 +241,8 @@ font設定
         flex-direction: row;
         justify-content: space-between;
         align-items: center;
+        padding: 20px 0;
+        margin-left: 143px;
     }
     .header .menu_abs {
         width: auto;
@@ -232,7 +253,7 @@ font設定
         align-items: center;
         justify-content: flex-end;
     }
-    .nav .links{
+    .nav .links {
         letter-spacing: 2.5px;
     }
     .nav ul {
@@ -256,7 +277,7 @@ font設定
         height: 50px;
         font-size: 11px;
     }
-    .nav ul li a:hover{
+    .nav ul li a:hover {
         text-decoration: none;
     }
 }
@@ -280,13 +301,16 @@ font設定
     height: 55px;
     font-weight: 600;
     padding-right: 20px;
+    width: 100%;
+    max-width: 295px;
+    margin: 0 auto;
 }
 
 .bt::after {
     content: "";
     position: absolute;
     /*top: 33%;*/
-    right: 40px;
+    right: 12px;
     /*
     width: 0.5em;
     height: 0.5em;
@@ -298,6 +322,13 @@ font設定
     height: 20px;
     background-image: url(../images/common/red_arrow.png);
     transition: 0.5s;
+}
+
+@media(min-width:768px){
+    .bt{
+        max-width: 100%;
+    }
+
 }
 
 .bt_down {
@@ -392,7 +423,7 @@ font設定
     /*border: solid 1px white;*/
 }
 
-.bt_yellow::after{
+.bt_yellow::after {
     background-image: url(../images/common/yellow_arrow.png);
 }
 
@@ -401,14 +432,28 @@ font設定
     color: #B99C55;
 }
 
-.bt_transparent{
+.bt_transparent {
     background: none;
     color: white;
     border: solid 1px white;
     transition: 0.4s;
 }
-.bt_transparent:hover{
-    background:rgba(255, 255, 255, 0.7);
+
+.bt_transparent::after {
+    content: '';
+    background-image: none;
+    width: 10px;
+    height: 10px;
+    border: 0px;
+    border-top: solid 2px var(--white);
+    border-right: solid 2px var(--white);
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.bt_transparent:hover {
+    background: rgba(255, 255, 255, 0.7);
 }
 
 .bt_white {
@@ -421,6 +466,7 @@ font設定
     background-color: var(--red);
     color: white;
 }
+
 /*
 .bt_white_red {
     background-color: white;
@@ -627,7 +673,7 @@ font設定
 
 @media(min-width:768px) {
     .box_header {
-        height: 330px;
+        height: 230px;
     }
 }
 
@@ -645,6 +691,7 @@ font設定
 }
 
 /*ページトップへ戻るボタン*/
+
 .footer .pagetop {
     display: none;
     position: fixed;
@@ -669,6 +716,33 @@ font設定
     line-height: 50px;
 }
 
+/*お問合せボタン*/
+
+.footer .bt_contact {
+    display: block;
+    position: fixed;
+    left: 0px;
+    bottom: 35px;
+}
+
+.footer .bt_contact a {
+    display: block;
+    font-size: 0;
+    width: 40px;
+    height: 260px;
+    text-align: center;
+    background: var(--gold);
+    color: var(--white);
+    font-size: 17px;
+    padding: 70px 4px;
+}
+
+@media(min-width:768px) {
+    .footer .bt_contact {
+        display: none;
+    }
+}
+
 /**
 サイドバー
 */
@@ -681,8 +755,8 @@ font設定
     justify-content: center;
     align-items: center;
     padding-bottom: 40px;
-    margin-left: -6%;
-    margin-right: -6%;
+    margin-left: -21%;
+    margin-right: -8%;
 }
 
 @media(min-width:768px) {
@@ -805,7 +879,7 @@ font設定
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 15px;
+    font-size: 11px;
     background-color: var(--red);
 }
 
@@ -839,6 +913,279 @@ font設定
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
+}
+
+/* flex box */
+
+.outer_box {
+    background-color: white;
+    border: solid 1px var(--gold);
+    padding: 95px 20px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    max-width: 344px;
+    height: 387px;
+    margin: 0 auto;
+}
+
+.outer_box:nth-child(2) {
+    padding-top: 75px;
+}
+
+.outer_box:nth-child(2) .box h3 {
+    margin-bottom: 20px;
+}
+
+.outer_box:not(:last-child) {
+    margin-bottom: 43px;
+}
+
+.outer_box .round_index {
+    position: absolute;
+    top: -23px;
+}
+
+.outer_box .header {
+    text-align: center;
+}
+
+.outer_box .box h3 {
+    margin-bottom: 35px;
+    line-height: 37px;
+    font-size: 20px;
+}
+
+.outer_box .box .text {
+    font-size: 15px;
+    line-height: 1.8;
+    letter-spacing: -0.1em;
+}
+
+@media(min-width:768px) {
+    .boxs {
+        /*width: 95vw;*/
+        display: flex;
+        justify-content: center;
+    }
+    .outer_box {
+        flex: 1;
+        padding: 110px 0 35px 0;
+        height: 508px;
+    }
+    .outer_box:nth-child(2) {
+        padding-top: 95px;
+    }
+    .outer_box:not(:last-child) {
+        margin-bottom: 0;
+        margin-right: 2%;
+    }
+    .outer_box .box h3 {
+        margin-bottom: 40px;
+    }
+    .outer_box:nth-child(2) .box h3 {
+        margin-bottom: 55px;
+    }
+    .outer_box .box .text {
+        margin: 0 12%;
+        letter-spacing: 0;
+    }
+}
+
+/* 無料サポート */
+
+.free-support {
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    max-width: 355px;
+}
+
+.free-support .upper {
+    height: 160px;
+    text-align: center;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--gold);
+    line-height: 45px;
+}
+
+.free-support .upper p {
+    font-size: 28px;
+}
+
+.free-support .upper .free {
+    font-size: 60px;
+}
+
+.free-support .bottom {
+    background-color: var(--white);
+    color: var(--black);
+    text-align: center;
+    padding: 25px;
+}
+
+.free-support .bottom .text {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.free-support .bottom .description {
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+@media(min-width:768px) {
+    .free-support {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 240px;
+        max-width: 100%;
+    }
+    .free-support .upper {
+        height: 100%;
+        flex-basis: 20%;
+    }
+    .free-support .bottom {
+        height: 100%;
+        flex-basis: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+/* オーナー様の声*/
+
+.voice {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding-bottom: 50px;
+}
+
+.voice .cont_title {
+    margin-top: 55px;
+    letter-spacing: -1px;
+}
+
+.voice .line {
+    margin-bottom: 30px;
+}
+
+.voice .desc {
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+
+.voice .card {
+    background-color: white;
+    padding: 30px 20px;
+    border: none;
+}
+
+.voice .card:first-child {
+    margin-bottom: 26px;
+}
+
+.voice .card .header {
+    margin-bottom: 20px;
+}
+
+.voice .card img {
+    width: 179px;
+    margin-bottom: 20px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.voice .card .header p {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: left;
+    letter-spacing: 3px;
+    line-height: 40px;
+}
+
+.voice .card .name {
+    margin-top: 40px;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 32px;
+}
+
+.voice .card .message {
+    line-height: 27px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: -0.1em;
+}
+
+@media(min-width:768px) {
+    .voice {
+        padding-bottom: 0px;
+    }
+    .voice .cont_title {
+        margin-top: 95px;
+    }
+    .voice .com-container {
+        width: 95vw;
+    }
+    .voice .desc {
+        margin-bottom: 70px;
+    }
+    .voice .voices .card {
+        flex: 1;
+        margin-right: 2%;
+        display: flex;
+        /*flex-direction: column;*/
+        justify-content: space-between;
+    }
+    .voice .card {
+        margin-bottom: 102px;
+        display: flex;
+        justify-content: space-between;
+        padding: 65px;
+        flex-direction: row-reverse;
+    }
+    .voice .card:first-child {
+        margin-bottom: 30px;
+    }
+    .voice .card:nth-child(2) {
+        flex-direction: row;
+    }
+    .voice .card img {
+        width: 277px;
+        height: 277px;
+        margin: 0;
+    }
+    .voice .card .text {
+        margin-right: 40px;
+    }
+    .voice .card:nth-child(2) .text {
+        margin-right: 0;
+        margin-left: 40px;
+    }
+    .voice .card .message p {
+        font-size: 16px;
+        line-height: 1.75;
+        letter-spacing: 0.08;
+    }
+    .voice .card .name {
+        margin: 40px 0 0 0;
+    }
 }
 
 /**

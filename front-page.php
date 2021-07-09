@@ -9,7 +9,8 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/sp_carousel01@2x.png" class="h-100" alt="top">
+                <img class="sp" src="<?php echo get_template_directory_uri(); ?>/assets/images/top/sp_carousel01@2x.png" class="h-100" alt="top">
+                <img class="pc" src="<?php echo get_template_directory_uri(); ?>/assets/images/top/pc_carousel01.png" class="h-100" alt="top">
                 <div class="overlay">
                     <p class="text bold">脱毛・<br class="br-sp" />
                         エステサロン<br class="br-sp" />
@@ -21,7 +22,8 @@
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/sp_carousel02@2x.png" alt="top">
+                <img class="sp" src="<?php echo get_template_directory_uri(); ?>/assets/images/top/sp_carousel02@2x.png" alt="top">
+                <img class="pc" src="<?php echo get_template_directory_uri(); ?>/assets/images/top/pc_carousel02.png" class="h-100" alt="top">
                 <div class="overlay">
                     <p class="text">脱毛機器の<br />
                         導入支援に<br class="br-sp" />
@@ -30,7 +32,8 @@
                 </div>
             </div>
             <div class="carousel-item overlay-base">
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/sp_carousel03@2x.png" alt="top">
+                <img class="sp" src="<?php echo get_template_directory_uri(); ?>/assets/images/top/sp_carousel03@2x.png" alt="top">
+                <img class="pc" src="<?php echo get_template_directory_uri(); ?>/assets/images/top/pc_carousel03.png" class="h-100" alt="top">
                 <div class="overlay">
                     <p class="text">エステ機器の<br />
                         導入支援に<br class="br-sp" />
@@ -103,8 +106,10 @@
                     地域の皆様に愛されるサロン作りをしているオーナー様の応援を私たちはしています。<br />
                     必要な方に必要な情報と安心を。さらなる飛躍を願っています。<br />
                 </p>
-                <p class="company_name">株式会社Anex　代表取締役</p>
-                <p class="ceo_name">小渕貞子</p>
+                <div class="name">
+                    <p class="company_name">株式会社Anex　代表取締役</p>
+                    <p class="ceo_name">小渕貞子</p>
+                </div>
             </div>
             <figure></figure>
         </div>
@@ -172,7 +177,7 @@
                 </div>
             </div>
             <a class="school" href="#">
-                <p class="text">より詳しく技術習得したい方のために、エステサロン経営に関するスクールを実施しています。詳細はお問い合わせにてご連絡ください。</p>
+                <p class="text">より詳しく技術習得したい方のために、<br class="br-pc" />エステサロン経営に関するスクールを実施しています。詳細はお問い合わせにてご連絡ください。</p>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/school.png">
             </a>
         </div>
@@ -180,7 +185,8 @@
 
     <section id="about_shikumi" class="shikumi">
         <div class="com-container">
-            <div class="cont_title">結果が出る仕組み</div>
+            <div class="cont_title sp">結果が出る仕組み</div>
+            <div class="cont_title pc">経営成功に導くAnexの3つの強み</div>
             <div class="line"></div>
 
             <div class="boxs">
@@ -232,36 +238,40 @@
 
             <div class="voices">
                 <div class="card">
-                    <div class="header">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/woman_01.png">
-                        <p>とても丁寧で親身な<br class="br-sp" />
-                            対応に、<br class="br-pc" />あらゆる場面で助けられました。
-                        </p>
-                    </div>
-                    <div class="message">
-                        <p>色々と導入するまでは熱心な所が多い中、Anexの小渕さんは、導入後も細かな事まで親身に聞いて下さりすぐに対応頂けてとても助かっています。導入前後の不安も全くなく安心と信頼がありお客様へも自信を持って対応することができています。本当に感謝しています。Anexの小渕さんに出会えて良かったです！！
-                        </p>
-                    </div>
-                    <div class="name">
-                        <p>Relaxation Salon Kefina<br />
-                            佐々木陽子 様</p>
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/woman_01.png">
+                    <div class="text">
+                        <div class="header">
+                            <p>とても丁寧で親身な<br class="br-sp" />
+                                対応に、<br class="br-pc" />あらゆる場面で助けられました。
+                            </p>
+                        </div>
+                        <div class="message">
+                            <p>色々と導入するまでは熱心な所が多い中、Anexの小渕さんは、導入後も細かな事まで親身に聞いて下さりすぐに対応頂けてとても助かっています。導入前後の不安も全くなく安心と信頼がありお客様へも自信を持って対応することができています。本当に感謝しています。Anexの小渕さんに出会えて良かったです！！
+                            </p>
+                        </div>
+                        <div class="name">
+                            <p>Relaxation Salon Kefina<br class="br-sp"/>
+                                佐々木陽子 様</p>
+                        </div>
                     </div>
                 </div>
 
-                <div class="card" style="height:772px">
-                    <div class="header">
-                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/woman_01.png">
-                        <p>とても丁寧で親身な<br class="br-sp" />
-                            対応に、<br class="br-pc" />あらゆる場面で助けられました。
-                        </p>
-                    </div>
-                    <div class="message">
-                        <p>色々と導入するまでは熱心な所が多い中、Anexの小渕さんは、導入後も細かな事まで親身に聞いて下さりすぐに対応頂けてとても助かっています。導入前後の不安も全くなく安心と信頼がありお客様へも自信を持って対応することができています。本当に感謝しています。Anexの小渕さんに出会えて良かったです！！
-                        </p>
-                    </div>
-                    <div class="name">
-                        <p>Relaxation Salon Kefina<br />
-                            佐々木陽子 様</p>
+                <div class="card">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/woman_01.png">
+                    <div class="text">
+                        <div class="header">
+                            <p>とても丁寧で親身な<br class="br-sp" />
+                                対応に、<br class="br-pc" />あらゆる場面で助けられました。
+                            </p>
+                        </div>
+                        <div class="message">
+                            <p>色々と導入するまでは熱心な所が多い中、Anexの小渕さんは、導入後も細かな事まで親身に聞いて下さりすぐに対応頂けてとても助かっています。導入前後の不安も全くなく安心と信頼がありお客様へも自信を持って対応することができています。本当に感謝しています。Anexの小渕さんに出会えて良かったです！！
+                            </p>
+                        </div>
+                        <div class="name">
+                            <p>Relaxation Salon Kefina<br class="br-sp"/>
+                                佐々木陽子 様</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -301,9 +311,9 @@
                 <div class="bottom">
                     <div class="text">
                         美容機器を導入した<br class="br-sp" />
-                        サロンオーナー様には<br class="br-sp" />
+                        サロンオーナー様には<br />
                         無料で様々な支援を<br class="br-sp" />
-                        行なっております。<br />
+                        行なっております。<br class="br-sp"/>
                         詳しくは<br class="br-sp" />
                         お問合せください。
                     </div>

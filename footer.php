@@ -21,7 +21,10 @@
             <i class="fas fa-chevron-up"></i>
         </a>
     </p>
-    <div class="copyright">2021 Anex Co,.Ltd.</div>
+    <div class="bt_contact">
+        <a href="#">お問い合せ</a>
+    </div>
+    <div class="copyright">©︎ 2021 Anex, Inc.</div>
 </footer>
 
 <?php wp_footer(); ?>

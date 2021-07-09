@@ -10,6 +10,7 @@ Author URI: http://example.com
 @import url("./assets/css/reset.css");
 @import url("./assets/css/common.css");
 @import url("./assets/css/top.css");
+@import url("./assets/css/product.css");
 @import url("./assets/css/about.css");
 @import url("./assets/css/menu.css");
 @import url("./assets/css/news.css");
@@ -58,6 +59,14 @@ TOP
     filter: brightness(70%);
 }
 
+.carousel-item img.sp {
+    display: block;
+}
+
+.carousel-item img.pc {
+    display: none;
+}
+
 .overlay {
     position: absolute;
     top: 0;
@@ -101,6 +110,12 @@ main .carousel .carousel-indicators .active {
     left: 49px;
 }
 
+.carousel-inner .overlay .bt {
+    height: 44px;
+    width: 200px;
+    font-size: 13px;
+}
+
 @media(min-width:768px) {
     #carouselExampleIndicators {
         height: 680px;
@@ -119,12 +134,19 @@ main .carousel .carousel-indicators .active {
         font-weight: 600;
         text-align: left;
         align-items: flex-start;
-        margin-left: 21%;
+        margin-left: 17%;
         letter-spacing: 5px;
     }
     .carousel-indicators {
         left: 0px;
         justify-content: flex-start;
+        margin-left: 10%;
+    }
+    .carousel-item img.sp {
+        display: none;
+    }
+    .carousel-item img.pc {
+        display: block;
     }
 }
 
@@ -359,7 +381,6 @@ main .carousel .carousel-indicators .active {
         font-size: 30px;
     }
 }
-
 
 /**初めてのお客様へ*/
 
@@ -723,7 +744,8 @@ ul.nav_ul li {
     position: relative;
     border-top: solid 1px #B4B4B4;
 }
-ul.nav_ul li::after{
+
+ul.nav_ul li::after {
     content: "";
     background-image: url(./assets/images/common/menu_arrow@2x.png);
     width: 20px;
@@ -732,20 +754,25 @@ ul.nav_ul li::after{
     right: 20px;
     background-size: 20px 20px;
 }
+
 @media(min-width:768px) {
     ul.nav_ul li {
         border-top: none;
         padding-left: 0;
-        padding-right: 40px;
+        font-size: 14px;
     }
     ul.nav_ul li:last-child {
         padding-right: 0;
+    }
+    ul.nav_ul li::after {
+        display: none;
     }
 }
 
 ul.nav_ul li a {
     color: black;
     font-weight: 800;
+    width: 100%;
 }
 
 .bt_reserve {
@@ -787,6 +814,7 @@ ul.nav_ul li a {
 /*フッター*/
 
 .footer {
+    border-top: solid 1px var(--lightgray);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -801,7 +829,7 @@ ul.nav_ul li a {
     padding-top: 55px;
 }
 
-.footer .com-container .footer_logo img{
+.footer .com-container .footer_logo img {
     width: 100%;
     padding: 0 40px;
 }
@@ -813,6 +841,7 @@ ul.nav_ul li a {
 .footer ul li a {
     color: black;
     padding-left: 40px;
+    width: 100%;
 }
 
 .footer .nav {
@@ -835,6 +864,7 @@ ul.nav_ul li a {
 }
 
 @media(min-width:768px) {
+    
     .footer .insta-upper {
         display: none;
     }
@@ -845,7 +875,7 @@ ul.nav_ul li a {
     }
     .footer .com-container {
         flex-direction: row;
-        padding: 10px 0 0 0;
+        padding: 38px 0 20px 0;
     }
     .footer .footer_logo img {
         width: 150px;
@@ -866,6 +896,11 @@ ul.nav_ul li a {
     }
     .footer .nav .links {
         width: auto;
+    }
+    .footer .com-container .footer_logo img {
+        width: 210px;
+        height: auto;
+        padding: 0;
     }
 }
 
