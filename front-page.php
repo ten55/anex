@@ -17,7 +17,7 @@
                         経営を<br />
                         トータル<br class="br-sp" />
                         サポート</p>
-                    <a class="bt bt_transparent" href="<?php echo esc_url(get_permalink(28)); ?>">View More</a>
+                    <a class="bt bt_transparent" href="<?php echo home_url(); ?>#support">View More</a>
 
                 </div>
             </div>
@@ -28,7 +28,7 @@
                     <p class="text">脱毛機器の<br />
                         導入支援に<br class="br-sp" />
                         ついて</p>
-                    <a class="bt bt_transparent" href="<?php echo esc_url(get_permalink(get_page_by_path('menu')->ID)); ?>">View More</a>
+                    <a class="bt bt_transparent" href='<?php echo esc_url(get_permalink(get_page_by_path('product01')->ID)); ?>'>View More</a>
                 </div>
             </div>
             <div class="carousel-item overlay-base">
@@ -38,7 +38,7 @@
                     <p class="text">エステ機器の<br />
                         導入支援に<br class="br-sp" />
                         ついて</p>
-                    <a class="bt bt_transparent" href="<?php echo esc_url(get_permalink(get_page_by_path('about')->ID)); ?>#about_movie">View More</a>
+                    <a class="bt bt_transparent" href='<?php echo esc_url(get_permalink(get_page_by_path('product02')->ID)); ?>'>View More</a>
                 </div>
             </div>
         </div>
@@ -115,7 +115,7 @@
         </div>
     </section>
 
-    <section class="support">
+    <section class="support" id="support">
         <div class="com-container">
             <h2 class="cont_title mincho">SUPPORT</h2>
             <div class="caption">Anexの行う<br class="br-sp" />サポートとは</div>
@@ -250,7 +250,7 @@
                             </p>
                         </div>
                         <div class="name">
-                            <p>Relaxation Salon Kefina<br class="br-sp"/>
+                            <p>Relaxation Salon Kefina<br class="br-sp" />
                                 佐々木陽子 様</p>
                         </div>
                     </div>
@@ -269,7 +269,7 @@
                             </p>
                         </div>
                         <div class="name">
-                            <p>Relaxation Salon Kefina<br class="br-sp"/>
+                            <p>Relaxation Salon Kefina<br class="br-sp" />
                                 佐々木陽子 様</p>
                         </div>
                     </div>
@@ -293,7 +293,7 @@
                 <div class="text">
                     <div class="header">業務用脱毛機<br />ヴィクトリアについて</div>
                     <p>美容サロンで脱毛を導入しようと考えている方にオススメする脱毛機が、グローバルサイエンス社のヴィクトリアです。短時間・短期間で全身脱毛が可能なこの機械は収益性も高く、お客様満足度も高い機械です。</p>
-                    <a class="bt bt_white" href="<?php echo esc_url(get_permalink(28)); ?>">脱毛機器の導入</a>
+                    <a class="bt bt_white" href='<?php echo esc_url(get_permalink(get_page_by_path('product01')->ID)); ?>'>脱毛機器の導入</a>
                 </div>
             </div>
             <div class="box home-care">
@@ -301,7 +301,7 @@
                 <div class="text">
                     <div class="header">業務用エステ機器・<br />ホームケア機器について</div>
                     <p>脱毛機械だけでなく、家庭でも自分でお肌のケアをできるホームケア機器や業務用エステ機器の導入もご提案しています。</p>
-                    <a class="bt bt_white" href="<?php echo esc_url(get_permalink(28)); ?>">エステ機器の導入</a>
+                    <a class="bt bt_white" href='<?php echo esc_url(get_permalink(get_page_by_path('product02')->ID)); ?>'>エステ機器の導入</a>
                 </div>
             </div>
             <div class="free-support">
@@ -313,7 +313,7 @@
                         美容機器を導入した<br class="br-sp" />
                         サロンオーナー様には<br />
                         無料で様々な支援を<br class="br-sp" />
-                        行なっております。<br class="br-sp"/>
+                        行なっております。<br class="br-sp" />
                         詳しくは<br class="br-sp" />
                         お問合せください。
                     </div>
@@ -326,10 +326,12 @@
                     </div>
                 </div>
             </div>
-            <div class="bt bt_yellow bt_support">
-                サポートについての<br class="br-sp" />
-                詳細はこちら
-            </div>
+            <a href="<?php echo home_url(); ?>#support">
+                <div class="bt bt_yellow bt_support">
+                    サポートについての<br class="br-sp" />
+                    詳細はこちら
+                </div>
+            </a>
         </div>
     </section>
 

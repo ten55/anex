@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 <main class="contact">
     <div class="box_header">
-        <div class="title mincho">
+        <div class="title">
             <p>CONTACT</p>
         </div>
     </div>

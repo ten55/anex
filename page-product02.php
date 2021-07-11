@@ -1,11 +1,9 @@
 <?php get_header(); ?>
 
-<main class="product">
+<main class="product product02">
     <div class="box_header">
         <div class="title">
-            <p>エステ機器の<br class="br-sp" />
-                導入支援に<br class="br-sp" />
-                ついて</p>
+            <p>エステ機器の<br class="br-sp" />導入支援に<br class="br-sp" />ついて</p>
         </div>
     </div>
 
@@ -44,7 +42,9 @@
                     しわ・たるみに効果のあるハンドピース、美容成分の導入・リフトアップをするフェイシャルプローブという2つの機械で肌の層をトータルでケアします。<br />
                     その場で結果や効果を実感でき、結果の持続性もあるためお客様にリピーターになっていただくことも。
                 </div>
-                <div class="bt bt_yellow">ARTISTIC & Co. 社</div>
+                <a href="https://www.artistic.co.jp/" target=”_blank”>
+                    <div class="bt bt_yellow">ARTISTIC & Co. 社</div>
+                </a>
             </div>
         </div>
         </div>
@@ -113,10 +113,12 @@
                     </div>
                 </div>
             </div>
-            <div class="bt bt_yellow bt_support">
-                サポートについての<br class="br-sp" />
-                詳細はこちら
-            </div>
+            <a href="<?php echo home_url(); ?>#support">
+                <div class="bt bt_yellow bt_support">
+                    サポートについての<br class="br-sp" />
+                    詳細はこちら
+                </div>
+            </a>
         </div>
     </section>
 </main>

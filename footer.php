@@ -21,9 +21,18 @@
             <i class="fas fa-chevron-up"></i>
         </a>
     </p>
-    <div class="bt_contact">
-        <a href="#">お問い合せ</a>
-    </div>
+    <a id="bt_contact" class="bt_contact" href="<?php echo esc_url(get_permalink(get_page_by_path('contact')->ID)); ?>">
+        お問い合せ
+    </a>
+    <script>
+        (function($) {
+            if ($('main').hasClass('contact') == true) {
+                // お問合せページではお問合せボタンを非表示にする
+                $('#bt_contact').css('display', 'none');
+                $('#bt_contact').css('position', 'unset');
+            }
+        })(jQuery);
+    </script>
     <div class="copyright">©︎ 2021 Anex, Inc.</div>
 </footer>
 

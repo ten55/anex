@@ -11,8 +11,6 @@ Author URI: http://example.com
 @import url("./assets/css/common.css");
 @import url("./assets/css/top.css");
 @import url("./assets/css/product.css");
-@import url("./assets/css/about.css");
-@import url("./assets/css/menu.css");
 @import url("./assets/css/news.css");
 @import url("./assets/css/contact.css");
 @import url("./assets/css/single.css");
@@ -137,6 +135,9 @@ main .carousel .carousel-indicators .active {
         margin-left: 17%;
         letter-spacing: 5px;
     }
+    .carousel-inner .overlay .bt{
+        margin-left: 0;
+    }
     .carousel-indicators {
         left: 0px;
         justify-content: flex-start;
@@ -179,6 +180,7 @@ main .carousel .carousel-indicators .active {
 
 .top_news .titles {
     padding: 30px;
+    padding-left: 16%;
 }
 
 .top_news .titles .row {
@@ -215,7 +217,6 @@ main .carousel .carousel-indicators .active {
 
 .top_news .titles .title {
     margin-bottom: 18px;
-    /*overflow-x: hidden;*/
 }
 
 .top_news .titles .title a {
@@ -232,16 +233,14 @@ main .carousel .carousel-indicators .active {
         margin-top: -70px;
         height: 174px;
         display: flex;
-        z-index: 1000;
         position: relative;
         width: 70%;
         left: 30%;
-        /*overflow-x: hidden;*/
     }
     .top_news .titles {
         width: 80%;
         font-size: 13px;
-        /*padding: 22% 0 0 7%;*/
+        padding-left: 30px;
     }
     .top_news .titles .info {
         display: flex;
@@ -751,7 +750,7 @@ ul.nav_ul li::after {
     width: 20px;
     height: 20px;
     position: absolute;
-    right: 20px;
+    right: 8%;
     background-size: 20px 20px;
 }
 
@@ -760,6 +759,7 @@ ul.nav_ul li::after {
         border-top: none;
         padding-left: 0;
         font-size: 14px;
+        margin-right: 15px;
     }
     ul.nav_ul li:last-child {
         padding-right: 0;
@@ -818,7 +818,6 @@ ul.nav_ul li a {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*padding: 54px 83px;*/
 }
 
 .footer .com-container {
@@ -832,10 +831,11 @@ ul.nav_ul li a {
 .footer .com-container .footer_logo img {
     width: 100%;
     padding: 0 40px;
+    max-width: 310px;
 }
 
 .footer .com-container img {
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .footer ul li a {
@@ -855,24 +855,12 @@ ul.nav_ul li a {
     height: auto;
 }
 
-.footer .insta-bottom {
-    display: none;
-}
-
 .footer .nav .links {
     width: 100%;
 }
 
 @media(min-width:768px) {
     
-    .footer .insta-upper {
-        display: none;
-    }
-    .footer .insta-bottom {
-        display: flex;
-        color: black;
-        font-weight: 900;
-    }
     .footer .com-container {
         flex-direction: row;
         padding: 38px 0 20px 0;
@@ -882,11 +870,6 @@ ul.nav_ul li a {
         height: 60px;
         margin-right: 10px;
         margin-bottom: 0;
-    }
-    .footer .insta-bottom img {
-        margin-right: 15px;
-        width: 25px;
-        height: auto;
     }
     .footer .bt_reserve {
         height: 60px;
@@ -902,12 +885,10 @@ ul.nav_ul li a {
         height: auto;
         padding: 0;
     }
+    .footer ul li a{
+        padding-left: 0;
+    }
 }
-
-#img_insta {
-    margin-top: 30px;
-}
-
 .btn-select {
     text-align: center;
     width: 300px;

@@ -2,7 +2,7 @@
 
 <main class="single">
     <div class="box_header">
-        <div class="title mincho">
+        <div class="title">
             <p>NEWS</p>
         </div>
     </div>
@@ -43,13 +43,6 @@
         <div class="sidebar">
             <?php get_sidebar('categories'); ?>
             <?php get_sidebar('archives'); ?>
-            <aside class="sidebar_part">
-                <h2 class="archive_title">FOLLOW ME</h2>
-                <div class="line"></div>
-                <a target='_blank' href="https://www.instagram.com/next_face/?hl=ja">
-                    <img id="img_insta" src="<?php echo get_template_directory_uri(); ?>/assets/images/news/instagram.png" alt="instagram">
-                </a>
-            </aside>
         </div>
     </div>
 </main>

@@ -5,14 +5,16 @@
 .single .box_header {
     background-image: url(../images/news/top_sp@2x.png);
 }
-
+.single .line{
+    border-bottom: solid 3px var(--red);
+}
 @media(min-width:768px) {
     .consingletact .box_header {
         background-image: url(../images/news/top_pc@2x.png);
     }
     
 }
-.single .com-container {
+.single .com-container article{
     padding: 0;
     margin-top: 50px;
 }
@@ -26,12 +28,12 @@
 
 .single .news_meta {
     margin-bottom: 10px;
-    padding: 10px 30px;
+    padding: 10px 0;
 }
 
 .single .article_title {
     font-size: 24px;
-    padding: 0 20px;
+    line-height: 48px;
 }
 
 .single img {
@@ -40,7 +42,9 @@
 }
 
 .single .article_body h2, .single .article_body h3, .single .article_body h4, .single .article_body h5, .single .article_body h6, .single .article_body p, .single .article_body a {
-    padding: 20px;
+    padding: 20px 0;
+    color: var(--black);
+    font-weight: 400;
 }
 
 .single .article_body h2 {
@@ -50,18 +54,28 @@
 .single .article_body h3 {
     font-size: 20px;
 }
-
-.single .article_body h2 {
+.single .article_body h3::after{
+    display: block;
+    content: "";
+    width: 60px;
+    height: 2px;
+    margin-top: 23px;
+    background-color: var(--red);
+}
+.single .article_body h4 {
     font-size: 18px;
 }
 
 .single .article_body p {
-    font-size: 16px;
+    font-size: 15px;
 }
 
 .single .article_body h2 a {
     font-size: 14px;
     color: black;
+}
+.single .article_body a{
+    text-decoration: revert;
 }
 @media(min-width:768px){
     .single .com-container{
@@ -69,7 +83,29 @@
         padding-top: 64px;
         width: 95vw;
     }
+    .single .com-container article{
+        margin-top: 0;
+    }
+    .single .article_title {
+        font-size: 32px;
+        line-height: 54px;
+    }
     .single .article_body{
         max-width: 721px;
+    }
+    .single .article_body h2 {
+        font-size: 28px;
+    }
+    
+    .single .article_body h3 {
+        font-size: 22px;
+    }
+    
+    .single .article_body h4 {
+        font-size: 18px;
+    }
+    
+    .single .article_body p {
+        font-size: 16px;
     }
 }

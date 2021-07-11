@@ -13,10 +13,11 @@
             <time class="news_time" datetime="<?php the_time('Y-m-d'); ?>"><?php the_time('Y.m.d') ?></time>
             <div class="category"><?php the_category(); ?></div>
         </div>
-        <!--<h2 class="news_title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>-->
-        <h2 class="news_title"><a href="<?php the_title(); ?>">
+        <h2 class="news_title">
+            <a href="<?php the_permalink(); ?>">
                 <?php echo mb_substr(the_title(), 0, 15) . ''; ?>
-            </a></h2>
+            </a>
+        </h2>
         <div class="news_desc">
             <p>
                 <a href="<?php the_permalink(); ?>">

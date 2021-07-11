@@ -1,11 +1,9 @@
 <?php get_header(); ?>
 
-<main class="product">
+<main class="product product01">
     <div class="box_header">
         <div class="title">
-            <p>脱毛機器の<br class="br-sp" />
-                導入支援に<br class="br-sp" />
-                ついて</p>
+            <p>脱毛機器の<br class="br-sp" />導入支援に<br class="br-sp" />ついて</p>
         </div>
     </div>
 
@@ -56,7 +54,9 @@
                     さらに、ヴィクトリアは脱毛器としての働きだけではなく、美容機械としても使用できます。フェイシャルに対しては、シワ・シミ・たるみ・赤ら顔・ニキビ・美白に効果があり、バストに対しては、弾力やハリのupが期待できます。<br />
 
                 </div>
-                <div class="bt bt_yellow">グローバルサイエンス社</div>
+                <a href="https://globalscience.jp/" target="_blank">
+                    <div class="bt bt_yellow">グローバルサイエンス社</div>
+                </a>
             </div>
         </div>
         </div>
@@ -105,7 +105,9 @@
                     </div>
                 </div>
             </div>
-            <div class="bt bt_yellow">ヴィクトリアをもっと詳しく</div>
+            <a href="https://globalscience.jp/business/victoria.html" target="_blank">
+                <div class="bt bt_yellow">ヴィクトリアをもっと詳しく</div>
+            </a>
     </section>
 
     <section class="secret">
@@ -174,10 +176,12 @@
                     </div>
                 </div>
             </div>
-            <div class="bt bt_yellow bt_support">
-                サポートについての<br class="br-sp" />
-                詳細はこちら
-            </div>
+            <a href="<?php echo home_url(); ?>#support">
+                <div class="bt bt_yellow bt_support">
+                    サポートについての<br class="br-sp" />
+                    詳細はこちら
+                </div>
+            </a>
         </div>
     </section>
 
