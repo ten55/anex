@@ -8,21 +8,22 @@
     <?php $desc = "NextFace｜ネクストフェイスは痩身、脱毛、フェイシャルでお客様の綺麗をサポートする札幌市のトータルエステティックサロンです。オーダーメイドでメニューを組み合わせ、一人ひとりに合った最適なケアをご提案いたします。"; ?>
     <title>
         <?php if (is_front_page()) : ?>
-            トータルエステティックサロン-NextFace【ネクストフェイス 】
-        <?php elseif (is_page('about')) : ?>
-            ABOUT | トータルエステティックサロン-NextFace【ネクストフェイス 】
-        <?php elseif (is_page('menu')) : ?>
-            <?php $desc = "NextFace｜ネクストフェイスのメニュー、料金表。痩身をはじめとするボディケア、脱毛、フェイシャルなど様々なメニューをご用意しております。"; ?>
-            MENU | トータルエステティックサロン-NextFace【ネクストフェイス 】
+            Anex
+        <?php elseif (is_page('product01')) : ?>
+            <?php $desc = "Anex | 製品情報"; ?>
+            製品情報 | Anex
+        <?php elseif (is_page('product02')) : ?>
+            <?php $desc = "Anex | 製品情報"; ?>
+            製品情報 | Anex
         <?php elseif (is_page('contact')) : ?>
-            <?php $desc = "サロンに関するお問い合わせ、ご相談はこちらから。初めてのお客様限定無料カウンセリングも行なっております。"; ?>
-            CONTACT | トータルエステティックサロン-NextFace【ネクストフェイス 】
+            <?php $desc = "Anex | お問合せ"; ?>
+            お問合せ | Anex
         <?php elseif (is_page(15) || is_single() || is_category() || is_month() || is_year() || is_archive() || is_singular() || is_post_type_archive()) : ?>
-            <?php $desc = "NextFace｜ネクストフェイスの最新情報をお届けします。"; ?>
-            NEWS | トータルエステティックサロン-NextFace【ネクストフェイス 】
+            <?php $desc = "Anex｜最新情報"; ?>
+            NEWS | Anex
         <?php else : ?>
-            <?php $desc = "NextFace｜ネクストフェイスの最新情報をお届けします。"; ?>
-            NEWS | トータルエステティックサロン-NextFace【ネクストフェイス 】
+            <?php $desc = "Anex | 最新情報"; ?>
+            NEWS | Anex
         <?php endif; ?>
     </title>
     <meta description="<?php echo $desc; ?>">
@@ -66,10 +67,10 @@
 <body <?php body_class(); ?>>
     <?php wp_body_open(); ?>
     <header class="header">
-        <div class="com-container">        
+        <div class="com-container">
             <div class="menu_abs">
                 <div class="site">
-                    <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/common/logo.png" alt="anex logo"/></a>
+                    <a href="<?php echo home_url(); ?>"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/common/logo.png" alt="anex logo" /></a>
                 </div>
                 <button type="button" class="nav-button" onClick="navFunc()">
                     <span class="sr-only">MENU</span>

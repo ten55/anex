@@ -1,3 +1,7 @@
+.main .carousel .bt_transparent{
+
+}
+
 /*トップメッセージ*/
 
 .main .top_message {
@@ -54,7 +58,7 @@
     text-align: left;
     width: 100%;
     font-weight: 700;
-    margin-top: 106px;
+    margin-top: 20px;
     letter-spacing: 1px;
 }
 
@@ -103,7 +107,7 @@
     .main .top_message .name {
         width: 100%;
         display: flex;
-        margin-top: 70px;
+        margin-top: 20px;
     }
     .main .top_message .company_name {
         margin: 0;
@@ -142,6 +146,7 @@
     font-weight: 700;
     line-height: 40px;
     margin-bottom: 33px;
+    text-align: center;
 }
 
 .main .support .desc {
@@ -166,7 +171,9 @@
     margin-left: -20px;
     margin-right: -20px;
 }
-
+.main .support .index .numbers{
+    height: 90px;
+}
 .main .support .index .number_head {
     font-size: 20px;
     color: white;
@@ -195,7 +202,10 @@
 }
 
 .main .support .detail .text p {
-    height: 166px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main .support .detail img {
@@ -217,20 +227,20 @@
 }
 
 .main .support .com-container .support_box.second {
-    border: solid 1px var(--yellow);
+    border: solid 1px var(--orange);
 }
 
 .main .support .com-container .support_box.second .index {
-    background-color: var(--yellow);
+    background-color: var(--orange);
 }
 
 .main .support .com-container .support_box.third {
-    border: solid 1px var(--orange);
+    border: solid 1px var(--yellow);
     margin-bottom: 50px;
 }
 
 .main .support .com-container .support_box.third .index {
-    background-color: var(--orange);
+    background-color: var(--yellow);
 }
 
 .main .support .school {
@@ -299,6 +309,9 @@
         padding: 3%;
         width: 81%;
     }
+    .main .support .detail .text p{
+        height: 166px;
+    }
     .main .support .detail img {
         width: 50%;
         height: auto;
@@ -355,7 +368,7 @@
     justify-content: center;
     align-items: center;
 }
-
+/*
 .main .shikumi .outer_box:nth-child(2) {
     padding-top: 75px;
 }
@@ -366,7 +379,7 @@
 
 .main .shikumi .outer_box:nth-child(3) {
     padding-top: 90px;
-}
+}*/
 
 @media(min-width:768px) {
     .main .shikumi {
@@ -386,6 +399,7 @@
     .main .shikumi .line {
         margin-bottom: 75px;
     }
+    /*
     .main .shikumi .outer_box:nth-child(2){
         padding-top: 95px;
     }
@@ -396,8 +410,8 @@
         padding-top: 105px;
     }
     .main .shikumi .outer_box:nth-child(3) .box h3{
-        margin-bottom: 55px;
-    }
+        margin-bottom: 45px;
+    }*/
 }
 
 /*PRODUCT*/
@@ -437,6 +451,7 @@
     font-size: 24px;
     line-height: 40px;
     margin-bottom: 21px;
+    justify-content: flex-start;
 }
 
 .main .product .box p {
@@ -485,6 +500,7 @@
     .main .product .bt.bt_white {
         margin-top: 32px;
         width: 380px;
+        margin-left: 0;
     }
     .main .product .box.home-care {
         flex-direction: row;

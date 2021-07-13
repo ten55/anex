@@ -215,7 +215,16 @@
     top: 35%;
     right: 8%;
 }
-
+.contact .message{
+    width: 80%;
+    height: 30vh;
+    text-align: center;
+    background-color: var(--white);
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 @media(min-width:768px) {
     .contact .com-container {
         padding: 50x 0 50px 0;

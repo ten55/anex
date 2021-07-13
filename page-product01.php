@@ -2,16 +2,14 @@
 
 <main class="product product01">
     <div class="box_header">
-        <div class="title">
+        <div class="title mincho">
             <p>脱毛機器の<br class="br-sp" />導入支援に<br class="br-sp" />ついて</p>
         </div>
     </div>
 
     <section class="product_top">
         <div class="com-container">
-            <h2 class="cont_title">未経験の方でも<br class="br-sp" />
-                脱毛サロンが<br class="br-sp" />
-                始めやすい理由</h2>
+            <h2 class="cont_title mincho bold">未経験の方でも<br class="br-sp" />脱毛サロンが<br class="br-sp" />始めやすい理由</h2>
             <div class="line"></div>
 
             <div class="text">
@@ -36,13 +34,11 @@
         <div class="com-container">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/product/Rioxy2_02.png" alt="業務用脱毛器ヴィクトリア">
             <div class="text">
-                <div class="title">
-                    導入するなら<br class="br-sp" />
-                    業務用脱毛機<br class="br-sp" />
-                    ヴィクトリア
+                <div class="title mincho">
+                    導入するなら<br class="br-sp" />業務用脱毛機<br class="br-sp" />ヴィクトリア
                 </div>
                 <div class="price">
-                    <span class="bold">4,950,000円（税込）</span>
+                    <span class="bold mincho">4,950,000円（税込）</span>
                     <p>※お見積もりはお問い合わせにて</p>
                 </div>
                 <div class="desc">
@@ -55,7 +51,7 @@
 
                 </div>
                 <a href="https://globalscience.jp/" target="_blank">
-                    <div class="bt bt_yellow">グローバルサイエンス社</div>
+                    <div class="bt bt_yellow mincho">グローバルサイエンス社</div>
                 </a>
             </div>
         </div>
@@ -65,13 +61,13 @@
 
     <section class="kouka">
         <div class="com-container">
-            <h2 class="cont_title">ヴィクトリアの効果</h2>
+            <h2 class="cont_title mincho">ヴィクトリアの効果</h2>
             <div class="line"></div>
 
             <div class="boxies">
                 <div class="box">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/product/victoria_01.png" alt="ヴィクトリアの効果">
-                    <div class="caption">
+                    <div class="caption mincho">
                         あらゆる毛質に対応可能！
                     </div>
                     <div class="text">
@@ -82,7 +78,7 @@
 
                 <div class="box">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/product/victoria_02.png" alt="ヴィクトリアの効果">
-                    <div class="caption">
+                    <div class="caption mincho">
                         従来法の約1/3の<br class="br-sp" />期間で完了！
 
                     </div>
@@ -95,7 +91,7 @@
 
                 <div class="box">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/product/victoria_03.png" alt="ヴィクトリアの効果">
-                    <div class="caption">
+                    <div class="caption mincho">
                         美容機械としても高性能！
 
                     </div>
@@ -106,21 +102,20 @@
                 </div>
             </div>
             <a href="https://globalscience.jp/business/victoria.html" target="_blank">
-                <div class="bt bt_yellow">ヴィクトリアをもっと詳しく</div>
+                <div class="bt bt_yellow mincho">ヴィクトリアをもっと詳しく</div>
             </a>
     </section>
 
     <section class="secret">
         <div class="com-container">
-            <div class="cont_title">ヴィクトリアによる<br class="br-sp" />売り上げの増加の秘密</div>
+            <div class="cont_title mincho">ヴィクトリアによる<br class="br-sp" />売り上げの増加の秘密</div>
             <div class="line"></div>
 
             <div class="boxs">
                 <div class="outer_box">
                     <h2 class="round_index">01</h2>
                     <div class="box">
-                        <h3 class="header">短時間で施術を<br />
-                            終わらせることができる</h3>
+                        <h3 class="header mincho">短時間で施術を<br />終わらせることができる</h3>
                         <p class="text">
                             施術が短時間であることは、お客様を1日に多くの予約を受け付けられ、業務効率化・売り上げUPに繋がります。
                         </p>
@@ -130,8 +125,7 @@
                 <div class="outer_box">
                     <h2 class="round_index">02</h2>
                     <div class="box">
-                        <h3 class="header">スタッフの<br />
-                            労力削減</h3>
+                        <h3 class="header mincho">スタッフの<br />労力削減</h3>
                         <p class="text">
                             従来法の脱毛機だと2人体制だったものが、ヴィクトリアであれば1人で施術可能です。その分、より多くのお客様の対応が可能となります。
                         </p>
@@ -141,8 +135,7 @@
                 <div class="outer_box support">
                     <h2 class="round_index">03</h2>
                     <div class="box">
-                        <h3 class=" header">様々な<br />
-                            コース設定が可能</h3>
+                        <h3 class="header mincho">様々な<br />コース設定が可能</h3>
                         <p class="text">
                             フェイシャルやバストケアにも対応できることによって、お客様のニーズに合わせた的確な提案ができるため高い収益を上げることができます。
                         </p>
@@ -155,11 +148,11 @@
     <section class="product_support">
         <div class="com-container">
             <div class="free-support">
-                <div class="upper">
+                <div class="upper mincho">
                     <p><span class="free">無料</span><br>サポート</p>
                 </div>
                 <div class="bottom">
-                    <div class="text">
+                    <div class="text mincho">
                         美容機器を導入した<br class="br-sp" />
                         サロンオーナー様には<br />
                         無料で様々な支援を<br class="br-sp" />
@@ -177,7 +170,7 @@
                 </div>
             </div>
             <a href="<?php echo home_url(); ?>#support">
-                <div class="bt bt_yellow bt_support">
+                <div class="bt bt_yellow bt_support mincho">
                     サポートについての<br class="br-sp" />
                     詳細はこちら
                 </div>
@@ -187,7 +180,7 @@
 
     <section class="voice">
         <div class="com-container">
-            <h2 class="cont_title">オーナー様の声</h2>
+            <h2 class="cont_title mincho">オーナー様の声</h2>
             <div class="line"></div>
 
             <div class="desc">
@@ -203,7 +196,7 @@
                 <div class="card">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/woman_01.png">
                     <div class="text">
-                        <div class="header">
+                        <div class="header mincho">
                             <p>この一台だけで多くのことが出来るので、<br />
                                 売り上げがぐっと伸びました。
                             </p>
@@ -223,7 +216,7 @@
                 <div class="card">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/woman_01.png">
                     <div class="text">
-                        <div class="header">
+                        <div class="header mincho">
                             <p>この一台だけで多くのことが出来るので、<br />
                                 売り上げがぐっと伸びました。
                             </p>
