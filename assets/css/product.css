@@ -10,8 +10,9 @@
 .product .box_header .title {
     text-align: center;
     line-height: 50px;
-    letter-spacing: 0.02em;
+    letter-spacing: 0.1em;
     font-size: 30px;
+    width: 200px;
 }
 
 @media(min-width:768px){
@@ -27,6 +28,7 @@
     .product .box_header .title {
         line-height: 40px;
         font-size: 37px;
+        width: auto;
     }
 }
 /*冒頭の製品紹介メッセージ*/
@@ -123,8 +125,13 @@
     .product .article img {
         width: 39%;
         max-width: 425px;
-        height: auto;
+        height: 600px;
+        object-fit: cover;
         margin-right: 8%;
+    }
+    .product .article.product02 img {
+        height: 421px;
+        object-position: right; 
     }
     .product .article .text .bt {
         width: 380px;
@@ -132,7 +139,7 @@
         letter-spacing: 0.1em;
     }
     .product .article .desc {
-        margin-bottom: 70px;
+        margin-bottom: 35px;
     }
 }
 
@@ -143,7 +150,7 @@
     background-color: var(--white);
 }
 .product .kouka .cont_title{
-    letter-spacing: -0.1em;
+    letter-spacing: 0.06em;
 }
 .product .kouka .line{
     margin-bottom: 40px;
@@ -178,6 +185,7 @@
     font-size: 20px;
     color: var(--red);
     font-weight: 600;
+    text-align: center;
 }
 
 .product .kouka .boxies .box .text {
@@ -245,14 +253,6 @@
     .product .secret .line {
         margin-bottom: 75px;
     }
-    /*
-    .product .secret .outer_box {
-        height: 453px;
-    }*/
-    /*
-    .product .secret .outer_box:nth-child(2) {
-        padding-top: 75px;
-    }*/
 }
 
 /* 無料サポート*/
@@ -294,14 +294,14 @@
 .product .product{
     padding: 50px 0;
 }
-.product .product .boxies{
-
-}
 .product .product .box{
     margin-bottom: 50px;
 }
 .product .product .boxies .box{
     margin-bottom: 80px;
+}
+.product .product .boxies .box:last-child{
+    margin-bottom: 50px;
 }
 .product .product img{
     width: 100%;
@@ -318,17 +318,17 @@
     font-size: 15px;
 }
 .product .product .comany_name{
-    font-weight: 600;
+    font-weight: 700;
     line-height: 33px;
     margin-bottom: 12px;
 }
 .product .product .title{
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 17px;
 }
 .product .product .price{
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 21px;
 }
 .product .product .other{
@@ -345,7 +345,6 @@
     }
     .product .product .boxies .box{
         display: flex;
-        margin-bottom: 50px;
     }
     .product .product .boxies .box:first-child{
         flex-direction: row-reverse;
@@ -355,7 +354,7 @@
         margin-left: 8%;
     }
     .product .product .box .text p{
-        letter-spacing: -0.17em;
+        letter-spacing: 0.06em;
     }
     .product .product .boxies .box:first-child .text{
         margin-right: 8%;

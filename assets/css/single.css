@@ -34,6 +34,7 @@
 .single .article_title {
     font-size: 24px;
     line-height: 48px;
+    font-weight: 700;
 }
 
 .single img {
@@ -45,6 +46,10 @@
     padding: 20px 0;
     color: var(--black);
     font-weight: 400;
+}
+
+.single .article_body h2, .single .article_body h3, .single .article_body h4, .single .article_body h5, .single .article_body h6{
+    font-weight: 700;
 }
 
 .single .article_body h2 {

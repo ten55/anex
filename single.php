@@ -2,7 +2,7 @@
 
 <main class="single">
     <div class="box_header">
-        <div class="title">
+        <div class="title mincho">
             <p>NEWS</p>
         </div>
     </div>
@@ -32,7 +32,7 @@
                         $news = get_term_by('slug', 'news', 'category');
                         $news_link = get_term_link($news);
                         ?>
-                        <div class="btn_all"><a href="<?php echo get_page_uri(19); ?>">一覧に戻る</a></div>
+                        <div class="btn_all"><a href="<?php echo esc_url(get_permalink(get_page_by_path('news')->ID)); ?>">一覧に戻る</a></div>
                         <div class="postLink postLink-next">
                             <?php next_post_link('%link<i class="fas fa-chevron-right arrow"></i>', '次の記事へ'); ?>
                         </div>

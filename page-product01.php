@@ -3,7 +3,7 @@
 <main class="product product01">
     <div class="box_header">
         <div class="title mincho">
-            <p>脱毛機器の<br class="br-sp" />導入支援に<br class="br-sp" />ついて</p>
+            <p>脱毛機器の<br class="br-sp" />導入支援</p>
         </div>
     </div>
 
@@ -149,7 +149,8 @@
         <div class="com-container">
             <div class="free-support">
                 <div class="upper mincho">
-                    <p><span class="free">無料</span><br>サポート</p>
+                    <p class="free">無料</p>
+                    <p>サポート</p>
                 </div>
                 <div class="bottom">
                     <div class="text mincho">
@@ -207,8 +208,8 @@
                             </p>
                         </div>
                         <div class="name">
-                            <p>Relaxation Salon Kefina<br class="br-sp" />
-                                佐々木陽子 様</p>
+                            <p class="company_name">Relaxation Salon Kefina</p>
+                            <p class="ceo_name">佐々木陽子 様</p>
                         </div>
                     </div>
                 </div>
@@ -227,8 +228,8 @@
                             </p>
                         </div>
                         <div class="name">
-                            <p>Relaxation Salon Kefina<br class="br-sp" />
-                                佐々木陽子 様</p>
+                            <p class="company_name">Relaxation Salon Kefina</p>
+                            <p class="ceo_name">佐々木陽子 様</p>
                         </div>
                     </div>
                 </div>

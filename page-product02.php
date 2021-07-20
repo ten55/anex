@@ -3,7 +3,7 @@
 <main class="product product02">
     <div class="box_header">
         <div class="title mincho">
-            <p>エステ機器の<br class="br-sp" />導入支援に<br class="br-sp" />ついて</p>
+            <p>エステ機器の<br class="br-sp" />導入支援</p>
         </div>
     </div>
 
@@ -23,7 +23,7 @@
             </div>
     </section>
 
-    <section class="article">
+    <section class="article product02">
         <div class="com-container">
             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/product/ARTEMIS_Pro_plus.png" alt="アルテミスプロプラス">
             <div class="text">
@@ -91,7 +91,8 @@
         <div class="com-container">
             <div class="free-support">
                 <div class="upper mincho">
-                    <p><span class="free">無料</span><br>サポート</p>
+                    <p class="free">無料</p>
+                    <p>サポート</p>
                 </div>
                 <div class="bottom">
                     <div class="text mincho">

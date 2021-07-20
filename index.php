@@ -2,7 +2,7 @@
 
 <main class="news">
     <div class="box_header">
-        <div class="title">
+        <div class="title mincho">
             <p>NEWS</p>
         </div>
     </div>

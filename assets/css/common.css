@@ -38,14 +38,12 @@ body {
     overflow-x: hidden;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 15px;
-    /*letter-spacing: 0.2em !important;*/
+    letter-spacing: 0.06em;
 }
 
 main {
     background-color: #F5F0E5;
-    letter-spacing: 3px;
     line-height: 27px;
-    /*letter-spacing: -1px;*/
 }
 
 /*共通コンテナ*/
@@ -465,9 +463,10 @@ font設定
 .cont_title {
     text-align: center;
     font-size: 24px;
-    font-weight: 500;
-    letter-spacing: 3px;
+    font-weight: 700;
+    /*letter-spacing: 3px;*/
     margin-bottom: 25px;
+    line-height: 40px;
 }
 
 .line {
@@ -490,6 +489,8 @@ font設定
     font-size: 30px;
     position: relative;
     z-index: 10;
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 700;
 }
 
 /**番号付きボックス*/
@@ -652,6 +653,8 @@ font設定
         width: 64px;
         padding: 70px 23px;
         transition: 0.5s;
+        border: solid 2px var(--gold);
+        z-index: 10;
     }
     .footer .bt_contact:hover {
         background: var(--white);
@@ -800,7 +803,11 @@ font設定
     align-items: center;
     color: white;
     font-size: 11px;
-    background-color: var(--red);
+    background-color: var(--black);
+}
+.copyright p{
+    width: 200px;
+    text-align: center;
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -839,7 +846,7 @@ font設定
 .outer_box {
     background-color: white;
     border: solid 1px var(--gold);
-    padding: 95px 20px 20px 20px;
+    padding: 95px 20px 50px 20px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -867,6 +874,7 @@ font設定
     margin-bottom: 35px;
     line-height: 37px;
     font-size: 20px;
+    /*letter-spacing: -0.06em;*/
 }
 
 .outer_box .box .text {
@@ -882,7 +890,7 @@ font設定
     }
     .outer_box {
         flex: 1;
-        padding: 110px 0 35px 0;
+        padding: 110px 0 60px 0;
         /*height: 508px;*/
         height: auto;
         min-height: 450px;
@@ -922,13 +930,16 @@ font設定
     text-align: center;
     color: var(--white);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 10px;
     background-color: var(--gold);
     line-height: 45px;
 }
 
 .free-support .upper p {
+    margin-top: 10px;
     font-size: 28px;
 }
 
@@ -940,12 +951,12 @@ font設定
     background-color: var(--white);
     color: var(--black);
     text-align: center;
-    padding: 2%;
+    padding: 13% 2%;
 }
 
 .free-support .bottom .text {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 40px;
 }
 
@@ -973,6 +984,7 @@ font設定
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        padding: 2%;
     }
 }
 
@@ -990,7 +1002,7 @@ font設定
 
 .voice .cont_title {
     margin-top: 55px;
-    letter-spacing: -2px;
+    letter-spacing: 0.06em;
 }
 
 .voice .line {
@@ -1016,6 +1028,7 @@ font設定
     margin-bottom: 20px;
     height: auto;
     justify-content: flex-start;
+    margin-top: 20px;
 }
 
 .voice .card img {
@@ -1027,14 +1040,14 @@ font設定
 
 .voice .card .header p {
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 700;
     text-align: left;
-    letter-spacing: 3px;
     line-height: 40px;
+    letter-spacing: 0.1em;
 }
 
 .voice .card .name {
-    margin-top: 40px;
+    margin-top: 20px;
     letter-spacing: 1px;
     font-size: 18px;
     font-weight: 600;
@@ -1046,7 +1059,7 @@ font設定
     line-height: 27px;
     text-align: left;
     font-size: 15px;
-    letter-spacing: -0.1em;
+    /*letter-spacing: -0.1em;*/
 }
 
 @media(min-width:768px) {
@@ -1072,7 +1085,7 @@ font設定
         margin-bottom: 102px;
         display: flex;
         justify-content: space-between;
-        padding: 65px;
+        padding: 55px;
         flex-direction: row-reverse;
     }
     .voice .card:first-child {
@@ -1099,7 +1112,14 @@ font設定
         letter-spacing: 0.08;
     }
     .voice .card .name {
-        margin: 40px 0 0 0;
+        display: flex;
+        margin: 20px 0 0 0;
+    }
+    .voice .card .name .company_name{
+        margin-right: 15px;
+    }
+    .voice .card .header{
+        margin-top: 0;
     }
 }
 

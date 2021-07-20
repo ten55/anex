@@ -12,11 +12,7 @@
                 <img class="sp" src="<?php echo get_template_directory_uri(); ?>/assets/images/top/sp_carousel01@2x.png" class="h-100" alt="top">
                 <img class="pc" src="<?php echo get_template_directory_uri(); ?>/assets/images/top/pc_carousel01.png" class="h-100" alt="top">
                 <div class="overlay">
-                    <p class="text mincho bold">脱毛・<br class="br-sp" />
-                        エステサロン<br class="br-sp" />
-                        経営を<br />
-                        トータル<br class="br-sp" />
-                        サポート</p>
+                    <p class="text mincho bold">脱毛・<br class="br-sp" />エステサロン<br class="br-sp" />経営を<br />トータル<br class="br-sp" />サポート</p>
                     <a class="bt bt_transparent" href="<?php echo home_url(); ?>#support">View More</a>
 
                 </div>
@@ -100,7 +96,7 @@
                     地域の皆様に愛されるサロン作りをしているオーナー様の応援を私たちはしています。<br />
                     必要な方に必要な情報と安心を。さらなる飛躍を願っています。<br />
                 </p>
-                <div class="name">
+                <div class="name mincho">
                     <p class="company_name">株式会社Anex　代表取締役</p>
                     <p class="ceo_name">小渕貞子</p>
                 </div>
@@ -134,8 +130,8 @@
                         <p>環境づくり、仕掛けづくり、<br />
                             スタッフの教育などについて。<br />
                             実店舗を運営しているからこそ、
-                            オーナー様の悩みに<br class="br-sp" />
-                            共感することができ、<br class="br-sp" />解決策をご提案できます。
+                            オーナー様の悩みに<br class="br-pc" />
+                            共感することができ、解決策をご提案できます。
                         </p>
                     </div>
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/flow_01@2x.png">
@@ -151,8 +147,8 @@
                 <div class="detail">
                     <div class="text">
                         <div class="caption mincho">販売支援</div>
-                        <p>集客戦略、販売スキル、お客様に寄り添うことの重要性について。<br />
-                            地域特性を踏まえた広告宣伝手法や販売ノウハウの提供について伝えます。<br />
+                        <p>集客戦略、販売スキル、お客様に寄り添うことの<br class="br-pc" />重要性について。<br />
+                            地域特性を踏まえた広告宣伝手法や<br class="br-pc" />販売ノウハウの提供について伝えます。<br />
                         </p>
                     </div>
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/flow_02@2x.png">
@@ -168,16 +164,15 @@
                 <div class="detail">
                     <div class="text">
                         <div class="caption mincho">商品導入支援</div>
-                        <p>心から信頼できる
-                            商材の見極め方について。
-                            機械選びが与える影響の大きさについて、グローバルサイエンス社とARTISTIC & Co. 社の商品力についてを伝えます。
+                        <p>心から信頼できる<br class="br-sp" />商材の見極め方について。<br />
+                            機械選びが与える影響の大きさについて、<br class="br-pc" />グローバルサイエンス社とARTISTIC & Co. 社の<br class="br-pc" />商品力についてを伝えます。
                         </p>
                     </div>
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/flow_03@2x.png">
                 </div>
             </div>
             <a class="school" href="#">
-                <p class="text mincho">より詳しく技術習得したい方のために、<br class="br-pc" />エステサロン経営に関するスクールを実施しています。詳細はお問い合わせにてご連絡ください。</p>
+                <p class="text mincho">より詳しく技術習得したい方のために、<br class="br-pc" />エステサロン経営に関するスクールを実施しています。<br class="br-pc" />詳細はお問い合わせにてご連絡ください。</p>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/school.png">
             </a>
         </div>
@@ -249,8 +244,8 @@
                             </p>
                         </div>
                         <div class="name">
-                            <p>Relaxation Salon Kefina<br class="br-sp" />
-                                佐々木陽子 様</p>
+                            <p class="company_name">Relaxation Salon Kefina</p>
+                            <p class="ceo_name">佐々木陽子 様</p>
                         </div>
                     </div>
                 </div>
@@ -267,8 +262,8 @@
                             </p>
                         </div>
                         <div class="name">
-                            <p>Relaxation Salon Kefina<br class="br-sp" />
-                                佐々木陽子 様</p>
+                            <p class="company_name">Relaxation Salon Kefina</p>
+                            <p class="ceo_name">佐々木陽子 様</p>
                         </div>
                     </div>
                 </div>
@@ -304,7 +299,8 @@
             </div>
             <div class="free-support">
                 <div class="upper mincho">
-                    <p><span class="free">無料</span><br>サポート</p>
+                    <p class="free">無料</p>
+                    <p>サポート</p>
                 </div>
                 <div class="bottom">
                     <div class="text mincho">
@@ -324,18 +320,12 @@
                     </div>
                 </div>
             </div>
-            <a href="<?php echo home_url(); ?>#support">
-                <div class="bt bt_yellow bt_support mincho">
-                    サポートについての<br class="br-sp" />
-                    詳細はこちら
-                </div>
-            </a>
         </div>
     </section>
 
     <section class="company">
         <div class="com-container">
-            <h2 class="cont_title">会社概要</h2>
+            <h2 class="cont_title mincho">会社概要</h2>
             <div class="line"></div>
 
             <table>
@@ -372,7 +362,7 @@
 
     <section class="unei">
         <div class="com-container">
-            <h2 class="cont_title">運営店舗</h2>
+            <h2 class="cont_title mincho">運営店舗</h2>
             <div class="line"></div>
 
             <div class="outer">

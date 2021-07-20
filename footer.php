@@ -22,7 +22,7 @@
         </a>
     </p>
     <a id="bt_contact" class="bt_contact" href="<?php echo esc_url(get_permalink(get_page_by_path('contact')->ID)); ?>">
-        お問い合せ
+        お問い合わせ
     </a>
     <script>
         (function($) {
@@ -33,7 +33,10 @@
             }
         })(jQuery);
     </script>
-    <div class="copyright">©︎ 2021 Anex, Inc.</div>
+    <div class="copyright">
+        <p>©︎ 2021 Anex, Inc.
+        </p>
+    </div>
 </footer>
 
 <?php wp_footer(); ?>
