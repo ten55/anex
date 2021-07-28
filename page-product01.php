@@ -214,6 +214,7 @@
                     </div>
                 </div>
 
+                <!--
                 <div class="card">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/woman_01.png">
                     <div class="text">
@@ -232,7 +233,7 @@
                             <p class="ceo_name">佐々木陽子 様</p>
                         </div>
                     </div>
-                </div>
+                </div>-->
             </div>
         </div>
     </section>

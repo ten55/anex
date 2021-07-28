@@ -85,6 +85,16 @@
                 );
                 wp_nav_menu($args);
                 ?>
+                <a class="contact_tel" href="tel:0112060744">
+                    <div class="tel_header">
+                        お電話での<br />
+                        お問い合わせ
+                    </div>
+                    <div class="tel_body">
+                        <div class="tel_number mincho">011-206-0744</div>
+                        <div class="tel_desc">（Anex 直営店NextFace）</div>
+                    </div>
+                </a>
             </div>
         </div>
     </header>

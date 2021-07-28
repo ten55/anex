@@ -854,9 +854,14 @@ ul.nav_ul li a {
     z-index: 0;
     height: auto;
 }
-
 .footer .nav .links {
     width: 100%;
+}
+.footer .nav .contact_tel{
+    padding: 16px 0px 16px 65px;
+}
+.footer .nav .contact_tel .tel_body .tel_number{
+    font-size: 20px;
 }
 
 @media(min-width:768px) {
@@ -870,6 +875,10 @@ ul.nav_ul li a {
         height: 60px;
         margin-right: 10px;
         margin-bottom: 0;
+    }
+    .footer .nav{
+        margin-left: auto;
+        margin-right: auto;
     }
     .footer .bt_reserve {
         height: 60px;
@@ -887,6 +896,9 @@ ul.nav_ul li a {
     }
     .footer ul li a{
         padding-left: 0;
+    }
+    .footer .nav .contact_tel{
+        padding: 0;
     }
 }
 .btn-select {
@@ -959,4 +971,15 @@ ul.nav_ul li a {
 .lineIndent {
     margin-left: 1em;
     text-indent: -1em;
+}
+
+@media(max-width:1157px) and (min-width:768px){
+    .header{
+        height: 120px;
+    }
+    .nav .nav_ul li{
+        height: 40px;
+        margin-right: 0;
+        margin-left: 15px;
+    }
 }

@@ -115,6 +115,80 @@ font設定
     }
 }
 
+.nav .contact_tel {
+    background-color: var(--red);
+    width: 100%;
+    min-height: 73px;
+    padding: 16px 20px 16px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    transition: 0.5s;
+    letter-spacing: 0em;
+}
+
+.nav .contact_tel .tel_header {
+    font-size: 15px;
+    line-height: 21px;
+    text-align: left;
+    padding-right: 23px;
+    border-right: solid 1px var(--white);
+    transition: 0.5s;
+}
+
+.nav .contact_tel .tel_body {
+    margin-left: 20px;
+    letter-spacing: 0.06em;
+    transition: 0.5s;
+}
+
+.nav .contact_tel .tel_body .tel_number {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.nav .contact_tel .tel_body .tel_desc {
+    font-size: 12px;
+    margin-left: -10px;
+}
+
+@media(min-width: 768px) {
+    .nav .contact_tel {
+        width: 286px;
+        height: 50px;
+        min-height: auto;
+        padding-left: 0px;
+        padding-right: 11px;
+        margin-left: 40px;
+    }
+    .nav .contact_tel .tel_header {
+        font-size: 10px;
+        padding-right: 20px;
+        line-height: 15px;
+    }
+    .nav .contact_tel .tel_body {
+        margin-left: 15px;
+    }
+    .nav .contact_tel .tel_body .tel_number {
+        font-size: 21px;
+        line-height: 20px;
+    }
+    .nav .contact_tel .tel_body .tel_desc {
+        font-size: 11px;
+        margin-left: -5px;
+    }
+    /*
+    .nav .contact_tel:hover {
+        background-color: var(--white);
+        border: solid 2px var(--red);
+        color: var(--red);
+    } 
+    .nav .contact_tel:hover .tel_header{
+        border-right: solid 1px var(--red);
+    }*/
+}
+
 /*スクリーンリーダー用*/
 
 .sr-only {
@@ -643,6 +717,10 @@ font設定
     width: 40px;
     height: 260px;
     padding: 70px 10px;
+    display: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+    align-items: center;
 }
 
 @media(min-width:768px) {
@@ -651,7 +729,8 @@ font設定
         bottom: 140px;
         left: auto;
         width: 64px;
-        padding: 70px 23px;
+        padding-left: 23px;
+        padding-right: 23px;
         transition: 0.5s;
         border: solid 2px var(--gold);
         z-index: 10;
@@ -805,7 +884,8 @@ font設定
     font-size: 11px;
     background-color: var(--black);
 }
-.copyright p{
+
+.copyright p {
     width: 200px;
     text-align: center;
 }
@@ -1089,7 +1169,9 @@ font設定
         flex-direction: row-reverse;
     }
     .voice .card:first-child {
-        margin-bottom: 30px;
+        /*margin-bottom: 30px;*/
+        /*２件目はとりあえずコメントアウトしたためマージン調整*/
+        margin-bottom: 102px;
     }
     .voice .card:nth-child(2) {
         flex-direction: row;
@@ -1115,10 +1197,10 @@ font設定
         display: flex;
         margin: 20px 0 0 0;
     }
-    .voice .card .name .company_name{
+    .voice .card .name .company_name {
         margin-right: 15px;
     }
-    .voice .card .header{
+    .voice .card .header {
         margin-top: 0;
     }
 }

@@ -171,10 +171,12 @@
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/flow_03@2x.png">
                 </div>
             </div>
-            <a class="school" href="#">
+            <!--<a class="school" href="#">-->
+            <div class="school">
                 <p class="text mincho">より詳しく技術習得したい方のために、<br class="br-pc" />エステサロン経営に関するスクールを実施しています。<br class="br-pc" />詳細はお問い合わせにてご連絡ください。</p>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/school.png">
-            </a>
+            </div>
+            <!--</a>-->
         </div>
     </section>
 
@@ -250,6 +252,7 @@
                     </div>
                 </div>
 
+                <!--
                 <div class="card">
                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/top/woman_01.png">
                     <div class="text">
@@ -267,6 +270,7 @@
                         </div>
                     </div>
                 </div>
+            -->
             </div>
         </div>
     </section>

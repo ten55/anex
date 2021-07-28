@@ -157,14 +157,15 @@
     position: relative;
 }
 
-.contact .contact_form .bt_icon{
+.contact .contact_form .bt_icon {
     background-image: url(../images/common/white_arrow.png);
     background-size: 6px 12px;
     background-repeat: no-repeat;
     background-position-x: 95%;
     background-position-y: 50%;
 }
-.contact .contact_form .bt_icon_back{
+
+.contact .contact_form .bt_icon_back {
     background-image: url(../images/common/white_arrow_left.png);
     background-size: 6px 12px;
     background-repeat: no-repeat;
@@ -172,12 +173,11 @@
     background-position-y: 50%;
 }
 
-
-
 .contact .contact_form .bt_form:hover {
     background-color: white;
     color: #AA2923;
 }
+
 .contact .contact_form .bt_form_gray:hover {
     background-color: var(--white);
     color: var(--darkgray);
@@ -215,7 +215,8 @@
     top: 35%;
     right: 8%;
 }
-.contact .message{
+
+.contact .message {
     width: 100%;
     /*height: 30vh;*/
     text-align: center;
@@ -225,6 +226,7 @@
     align-items: center;
     justify-content: center;
 }
+
 @media(min-width:768px) {
     .contact .com-container {
         padding: 50x 0 50px 0;
@@ -250,6 +252,9 @@
     .contact .contact_form table th {
         min-width: 350px;
     }
+    .contact .contact_form table th.address {
+        padding-left: 67px;
+    }
     .contact .contact_form table td {
         width: 100%;
     }
@@ -271,5 +276,215 @@
     }
     .contact .contact_form .bt_form {
         max-width: 500px;
+    }
+}
+
+/*電話連絡先*/
+
+.contact .tel {
+    padding-top: 7px;
+}
+
+.contact .header_text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 11px;
+    line-height: 30px;
+}
+
+/*
+.contact .header_text::before{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: var(--black);
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+.contact .header_text.form::before{
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: var(--black);
+    position: absolute;
+    left: 0;
+    top: 25%;
+}*/
+
+.contact .tel .box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    max-width: 335px;
+}
+
+.contact .tel .box.red {
+    margin-bottom: 11px;
+}
+
+.contact .tel .box.black {
+    margin-bottom: 52px;
+}
+
+.contact .tel .box .head {
+    width: 100%;
+    color: var(--white);
+    font-size: 18px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.contact .tel .box.red .head {
+    background-color: var(--red);
+    font-weight: 600;
+}
+
+.contact .tel .box.black .head {
+    background-color: var(--black);
+}
+
+.contact .tel .box .head .company_name {
+    font-size: 21px;
+    letter-spacing: 0.15em;
+    font-weight: 600;
+}
+
+.contact .tel .box .head .company_desc {
+    font-size: 12px;
+    padding-top: 5px;
+    padding-left: 5px;
+    letter-spacing: 0.06em;
+}
+
+.contact .tel .box.red .head::after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 55px;
+    left: 48%;
+    border-top: 10px solid var(--red);
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 5px solid transparent;
+}
+
+.contact .tel .box.black .head::after {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 55px;
+    left: 48%;
+    border-top: 10px solid var(--black);
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 5px solid transparent;
+}
+
+.contact .tel .box .body {
+    width: 100%;
+    background-color: var(--white);
+    color: var(--black);
+    min-height: 93px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+}
+
+.contact .tel .box.black .body {
+    min-height: 68px;
+}
+
+.contact .tel .box .body .tel_number {
+    font-size: 37px;
+    letter-spacing: 0.06em;
+    line-height: 40px;
+}
+
+.contact .tel .box .body a {
+    color: var(--black);
+}
+
+.contact .tel .box .body .staff {
+    font-size: 14px;
+}
+
+.contact .line_bottom {
+    padding-left: 20px;
+}
+
+@media(min-width: 768px) {
+    .contact .contact_boxies {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 75px;
+    }
+    .contact .tel .box {
+        max-width: inherit;
+        width: 49%;
+        /*width: 531px;*/
+        flex-direction: row;
+    }
+    .contact .tel .box.black, .contact .tel .box.red {
+        margin: 0;
+    }
+    .contact .tel .box .head {
+        /*width: 171px;*/
+        width: 32%;
+        height: 107px;
+        text-align: left;
+        flex-direction: column;
+    }
+    .contact .tel .box .head .company_name, .contact .tel .box .head .company_desc {
+        width: 71%;
+        padding-left: 0;
+    }
+    .contact .tel .box .body {
+        width: 68%;
+        /*width: 360px;*/
+        height: 107px;
+        padding: 5%;
+    }
+    .contact .tel .box .body .staff {
+        text-align: left;
+    }
+    .contact .tel .box.black .head::after {
+        border-top: 10px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 20px solid var(--black);
+        left: 100%;
+        top: 43%;
+    }
+    .contact .tel .box.red .head::after {
+        border-top: 10px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 10px solid transparent;
+        border-left: 20px solid var(--red);
+        left: 100%;
+        top: 43%;
+    }
+    .contact .tel .box.red .head{
+        font-size: 20px;
+    }
+    .contact .tel .box .head .company_name{
+        font-size: 24px;
     }
 }
